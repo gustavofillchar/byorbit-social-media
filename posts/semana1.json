@@ -1,0 +1,341 @@
+[
+ {
+  "slug": "2026-10-28-orcamento-5-perguntas",
+  "date": "2026-10-28",
+  "slides": [],
+  "caption": "Duas propostas com o mesmo valor podem esconder projetos completamente diferentes. A diferença está nas respostas.\n\nAntes de aprovar um orçamento de software, faça estas 5 perguntas ao fornecedor:\n\n1. O código e o servidor ficam no nome da minha empresa?\n2. Quem, exatamente, vai trabalhar no projeto?\n3. Como vou acompanhar o andamento?\n4. O escopo está escrito ou só combinado?\n5. Quem cuida do sistema depois que ele vai ao ar?\n\nSe alguma resposta vier vaga, vale perguntar de novo antes de assinar.\n\nSalve este post para a próxima proposta. E conta aqui: qual dessas perguntas você já deixou de fazer e se arrependeu?\n\nQuer tirar um projeto do papel? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h. 🚀\n\n#desenvolvimentodesoftware #softwaresobmedida #gestaodeprojetos #empreendedorismo #mvp",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título '5 perguntas antes de aprovar um orçamento de software', com '5 perguntas' em azul e uma órbita fina no canto superior direito."
+ },
+ {
+  "slug": "2026-10-29-vibecoding",
+  "date": "2026-10-29",
+  "slides": [
+   {
+    "type": "cover",
+    "title": "Seu app foi feito no <span class=\"blue\">vibecoding</span>?",
+    "sub": "5 pontos para conferir antes de colocar clientes nele."
+   },
+   {
+    "type": "text",
+    "title": "Gerar código com IA ficou fácil. Revisar, não.",
+    "body": "A IA escreve código que funciona na tela. Mas funcionar na demo é diferente de aguentar usuários reais, dados reais e gente mal-intencionada."
+   },
+   {
+    "type": "item",
+    "num": "01",
+    "title": "Tem chave ou senha escrita no código?",
+    "body": "Chaves de API e senhas dentro do app podem ser lidas por quem abrir o aplicativo. Elas precisam ficar no servidor, protegidas."
+   },
+   {
+    "type": "item",
+    "num": "02",
+    "title": "Cada usuário vê só os próprios dados?",
+    "body": "Teste com duas contas. Se uma consegue ver ou alterar os dados da outra, o problema não é visual: é de segurança."
+   },
+   {
+    "type": "item",
+    "num": "03",
+    "title": "Existe algum teste automatizado?",
+    "body": "Sem testes, cada mudança pode quebrar algo que já funcionava. E quem descobre é o cliente."
+   },
+   {
+    "type": "item",
+    "num": "04",
+    "title": "Alguém entende o código além da IA?",
+    "body": "Se ninguém do time sabe explicar como o sistema funciona, cada ajuste vira tentativa e erro."
+   },
+   {
+    "type": "item",
+    "num": "05",
+    "title": "Tem backup e monitoramento?",
+    "body": "Se o banco de dados sumir hoje, você recupera? Se o app cair de madrugada, quem fica sabendo primeiro?"
+   },
+   {
+    "type": "turn",
+    "title": "Protótipo com IA? Ótimo. Produção pede <span class=\"blue\">engenharia</span>.",
+    "sub": "Na ByOrbit, a IA acelera o trabalho. E o produto sai com:",
+    "checks": [
+     "Arquitetura definida antes do código",
+     "Código testado e documentado",
+     "Monitoramento de erros em produção"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Seu app precisa de uma revisão?",
+    "body": "Conte o que você construiu.<br>A ByOrbit responde em até 24h."
+   }
+  ],
+  "caption": "Fazer um app com IA em um fim de semana é possível. Deixar esse app seguro para clientes reais é outra conversa.\n\nVibecoding é ótimo para tirar uma ideia do papel rápido. O problema começa quando o protótipo vira produto sem ninguém revisar o que está por baixo.\n\nAntes de abrir seu app para clientes, confira:\n\n1. Tem chave ou senha escrita no código?\n2. Cada usuário vê só os próprios dados?\n3. Existe algum teste automatizado?\n4. Alguém entende o código além da IA?\n5. Tem backup e monitoramento?\n\nSe alguma resposta foi \"não sei\", vale uma revisão técnica antes de crescer.\n\nE você, já usou IA para criar algum sistema? Conta aqui como foi.\n\nQuer uma revisão do que você construiu? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#vibecoding #desenvolvimentodesoftware #segurancadainformacao #startups #inteligenciaartificial",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Seu app foi feito no vibecoding?', com a palavra vibecoding em azul e uma órbita fina no canto superior direito."
+ },
+ {
+  "slug": "2026-10-30-mars-climate-orbiter",
+  "date": "2026-10-30",
+  "slides": [
+   {
+    "type": "cover",
+    "title": "<span class=\"blue\">US$ 125 milhões</span> perdidos por uma conversão de unidades",
+    "sub": "A história da Mars Climate Orbiter e o que ela ensina sobre integrar sistemas."
+   },
+   {
+    "type": "item",
+    "num": "1999",
+    "title": "A sonda chegou a Marte. E sumiu.",
+    "body": "Em setembro de 1999, a Mars Climate Orbiter, da NASA, se aproximou do planeta muito mais baixo do que o planejado e foi perdida."
+   },
+   {
+    "type": "text",
+    "title": "Um sistema falava em libras. O outro esperava newtons.",
+    "body": "Um software de solo enviava dados de impulso no sistema imperial. A navegação da sonda esperava valores no sistema métrico. A conversão não aconteceu."
+   },
+   {
+    "type": "text",
+    "title": "Cada parte funcionava. A conversa entre elas, não.",
+    "body": "O erro não estava em um sistema isolado. Estava no combinado entre os dois, que ninguém conferiu de ponta a ponta."
+   },
+   {
+    "type": "text",
+    "title": "Nas empresas, isso acontece em escala menor todo dia.",
+    "body": "Um sistema manda o valor com imposto, o outro espera sem. Datas em formatos diferentes. Moedas trocadas. O dado chega, mas chega errado."
+   },
+   {
+    "type": "turn",
+    "title": "Na ByOrbit, integração tem <span class=\"blue\">contrato</span>.",
+    "sub": "Antes de conectar dois sistemas, a gente define:",
+    "checks": [
+     "Formato e unidade de cada dado",
+     "Validação na entrada",
+     "Rastreio de cada informação"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Seus sistemas conversam direito?",
+    "body": "Conte quais sistemas você usa hoje.<br>A ByOrbit responde em até 24h."
+   }
+  ],
+  "caption": "Um dos erros mais famosos da exploração espacial não foi um problema de foguete. Foi de comunicação entre dois softwares.\n\nEm 1999, a Mars Climate Orbiter, da NASA, chegou a Marte numa altitude muito mais baixa do que a planejada e foi perdida. A causa: um sistema mandava dados no sistema imperial, e o outro esperava valores no sistema métrico.\n\nCada parte funcionava sozinha. O problema estava na integração entre elas.\n\nNas empresas acontece a mesma coisa, em escala menor: ERP, CRM e sistema de pagamento trocando informações com formatos diferentes, sem ninguém conferir.\n\nNa sua empresa, quantos sistemas precisam conversar entre si? Conta aqui.\n\nQuer integrar seus sistemas do jeito certo? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#curiosidadesdatecnologia #nasa #integracaodesistemas #engenhariadesoftware #tecnologia",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'US$ 125 milhões perdidos por uma conversão de unidades', com o valor em azul e uma órbita fina no canto superior direito."
+ },
+ {
+  "slug": "2026-10-31-4-fases",
+  "date": "2026-10-31",
+  "slides": [
+   {
+    "type": "cover",
+    "title": "As <span class=\"blue\">4 fases</span> de um projeto de software sem surpresas",
+    "sub": "O caminho da ByOrbit, do briefing à órbita."
+   },
+   {
+    "type": "text",
+    "title": "Muito atraso começa antes da primeira linha de código.",
+    "body": "Quando a construção começa sem escopo e sem arquitetura definidos, cada decisão vira retrabalho. E o prazo paga a conta."
+   },
+   {
+    "type": "item",
+    "num": "01",
+    "title": "Descoberta",
+    "body": "Mapeamos a ideia, as restrições e o que conta como sucesso. Daqui saem o escopo, as tecnologias e o cronograma."
+   },
+   {
+    "type": "item",
+    "num": "02",
+    "title": "Arquitetura",
+    "body": "Definimos as partes do sistema, como elas trocam dados e o que acontece quando algo falha. Você aprova antes de construirmos."
+   },
+   {
+    "type": "item",
+    "num": "03",
+    "title": "Construção",
+    "body": "Demonstrações semanais e entregas contínuas num ambiente de testes. Você vê o produto andando sem precisar gerenciar o projeto."
+   },
+   {
+    "type": "item",
+    "num": "04",
+    "title": "Lançamento",
+    "body": "Produto no ar, testes de desempenho e monitoramento conferido. E a gente continua por perto depois."
+   },
+   {
+    "type": "turn",
+    "title": "Quatro fases. <span class=\"blue\">Todo projeto.</span>",
+    "sub": "E desde a primeira, o que é construído já fica com você:",
+    "checks": [
+     "Código no repositório da sua empresa",
+     "Infraestrutura na sua conta",
+     "Documentação de arquitetura"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Pronto para a fase 1?",
+    "body": "Conte o que você quer lançar.<br>A ByOrbit responde em até 24h."
+   }
+  ],
+  "caption": "Projeto de software que estoura prazo raramente tem um único culpado. Muitas vezes, faltou processo antes do código.\n\nNa ByOrbit, todo projeto passa pelas mesmas 4 fases:\n\n01 · Descoberta: escopo, tecnologias e cronograma definidos antes de construir.\n02 · Arquitetura: você aprova o plano do sistema antes da primeira linha em produção.\n03 · Construção: demonstrações semanais, com o produto rodando num ambiente de testes.\n04 · Lançamento: produto no ar, monitorado, e a gente seguindo junto.\n\nE desde o primeiro dia, código, infraestrutura e documentação ficam no nome da sua empresa.\n\nQual dessas fases mais faltou no último projeto que você contratou?\n\nQuer começar pela Descoberta? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#gestaodeprojetos #desenvolvimentodesoftware #softwaresobmedida #produtodigital #empreendedorismo",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'As 4 fases de um projeto de software sem surpresas', com '4 fases' em azul e uma órbita fina no canto superior direito."
+ },
+ {
+  "slug": "2026-11-01-primeiro-bug",
+  "date": "2026-11-01",
+  "slides": [
+   {
+    "type": "cover",
+    "title": "O primeiro bug registrado era uma <span class=\"blue\">mariposa</span> de verdade",
+    "sub": "E o que essa história de 1947 ensina sobre erros em sistemas."
+   },
+   {
+    "type": "item",
+    "num": "1947",
+    "title": "Universidade Harvard, 9 de setembro.",
+    "body": "A equipe do computador Harvard Mark II, da qual fazia parte a cientista Grace Hopper, investigava uma falha na máquina."
+   },
+   {
+    "type": "text",
+    "title": "A causa: uma mariposa presa num relé.",
+    "body": "Os operadores removeram o inseto, colaram no caderno de registro e anotaram: “primeiro caso real de bug encontrado”."
+   },
+   {
+    "type": "text",
+    "title": "A palavra já existia. O registro é que ficou famoso.",
+    "body": "Engenheiros já chamavam defeitos de “bug” antes disso. O que marcou a história foi o cuidado de anotar o erro, a causa e a correção."
+   },
+   {
+    "type": "text",
+    "title": "Quase 80 anos depois, a lição é a mesma.",
+    "body": "Erro que não é registrado volta. Sistemas sérios guardam o histórico de cada falha: quando aconteceu, onde e por quê."
+   },
+   {
+    "type": "turn",
+    "title": "Na ByOrbit, todo produto vai ao ar com <span class=\"blue\">registro de falhas</span>.",
+    "sub": "O monitoramento já vem no pacote:",
+    "checks": [
+     "Registro de erros",
+     "Histórico de uso",
+     "Alertas antes do cliente perceber"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Quem descobre os erros do seu sistema?",
+    "body": "Conte como funciona hoje.<br>A ByOrbit responde em até 24h."
+   }
+  ],
+  "caption": "A palavra \"bug\" para erro de computador ganhou uma das histórias mais famosas da tecnologia em 1947. E envolve um inseto de verdade.\n\nA equipe do Harvard Mark II, da qual fazia parte Grace Hopper, encontrou uma mariposa presa num relé da máquina. Eles colaram o inseto no caderno de registro com a anotação: \"primeiro caso real de bug encontrado\".\n\nO termo já existia antes. O que ficou para a história foi o hábito de registrar o erro, a causa e a correção.\n\nQuase 80 anos depois, essa ainda é a base de um sistema confiável: saber o que falhou, quando e por quê, de preferência antes do cliente.\n\nVocê conhecia essa história? Conta aqui qual curiosidade de tecnologia você quer ver no próximo post.\n\nQuer um sistema monitorado de verdade? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#curiosidadesdatecnologia #historiadacomputacao #gracehopper #engenhariadesoftware #tecnologia",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'O primeiro bug registrado era uma mariposa de verdade', com a palavra mariposa em azul e uma órbita fina no canto superior direito."
+ },
+ {
+  "slug": "2026-11-02-mvp-inchado",
+  "date": "2026-11-02",
+  "slides": [
+   {
+    "type": "cover",
+    "title": "Seu MVP está <span class=\"blue\">grande demais</span>?",
+    "sub": "4 sinais de que você está construindo antes de validar."
+   },
+   {
+    "type": "text",
+    "title": "MVP serve para aprender, não para impressionar.",
+    "body": "A função de um MVP é testar a ideia com usuários reais o quanto antes. Cada funcionalidade extra adia esse teste e aumenta o custo."
+   },
+   {
+    "type": "item",
+    "num": "01",
+    "title": "A lista de funcionalidades só cresce",
+    "body": "Se toda reunião adiciona itens e nenhuma remove, o escopo virou lista de desejos."
+   },
+   {
+    "type": "item",
+    "num": "02",
+    "title": "Painel completo antes do primeiro cliente",
+    "body": "No começo, muita coisa pode ser feita à mão. Automatize quando o processo se repetir de verdade."
+   },
+   {
+    "type": "item",
+    "num": "03",
+    "title": "O lançamento sempre fica para o mês que vem",
+    "body": "Se a data muda toda vez que surge uma ideia nova, o problema não é prazo. É escopo."
+   },
+   {
+    "type": "item",
+    "num": "04",
+    "title": "Ninguém sabe dizer o que o MVP vai provar",
+    "body": "Todo MVP deveria testar uma hipótese clara. Sem ela, não dá para saber se funcionou."
+   },
+   {
+    "type": "turn",
+    "title": "Escopo pequeno, <span class=\"blue\">pergunta clara</span>.",
+    "sub": "Na Descoberta, a ByOrbit ajuda a separar:",
+    "checks": [
+     "O que entra agora",
+     "O que fica para depois",
+     "O que conta como sucesso"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Quer validar sua ideia do jeito certo?",
+    "body": "Conte o que você quer testar.<br>A ByOrbit responde em até 24h."
+   }
+  ],
+  "caption": "O MVP mais caro é aquele que demora tanto que, quando chega ao mercado, a pergunta que ele deveria responder já mudou.\n\n4 sinais de que o seu está grande demais:\n\n1. A lista de funcionalidades só cresce.\n2. Já tem painel completo antes do primeiro cliente.\n3. O lançamento sempre fica para o mês que vem.\n4. Ninguém sabe dizer o que o MVP vai provar.\n\nUm bom MVP responde uma pergunta clara, com o mínimo necessário para responder. O resto vem depois, com dados de usuários reais.\n\nNa ByOrbit, um MVP começa em R$ 20 mil, e o escopo é definido na Descoberta, antes de qualquer código.\n\nQual funcionalidade você cortaria do seu MVP hoje? Conta aqui.\n\nQuer tirar sua ideia do papel? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#mvp #startups #produtodigital #empreendedorismo #softwaresobmedida",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Seu MVP está grande demais?', com 'grande demais' em azul e uma órbita fina no canto superior direito."
+ },
+ {
+  "slug": "2026-11-03-quando-nao-usar-ia",
+  "date": "2026-11-03",
+  "slides": [
+   {
+    "type": "cover",
+    "title": "Quando <span class=\"blue\">não</span> colocar IA no seu produto",
+    "sub": "4 situações em que uma regra simples resolve melhor."
+   },
+   {
+    "type": "text",
+    "title": "IA é ferramenta, não requisito.",
+    "body": "Ela resolve muito bem alguns problemas. Em outros, deixa o produto mais caro, mais lento e menos previsível."
+   },
+   {
+    "type": "item",
+    "num": "01",
+    "title": "Quando a resposta precisa ser sempre igual",
+    "body": "Cálculo de imposto, regra de desconto, validação de CPF. Se existe uma regra exata, código comum é mais barato e confiável."
+   },
+   {
+    "type": "item",
+    "num": "02",
+    "title": "Quando um erro não pode acontecer",
+    "body": "Modelos de IA podem errar com confiança. Onde o erro custa caro, ela entra com revisão humana, ou não entra."
+   },
+   {
+    "type": "item",
+    "num": "03",
+    "title": "Quando o volume é enorme e a tarefa é simples",
+    "body": "Cada chamada a um modelo tem custo e tempo de resposta. Em tarefas simples e repetidas, isso soma rápido."
+   },
+   {
+    "type": "item",
+    "num": "04",
+    "title": "Quando ninguém sabe o que ela vai resolver",
+    "body": "“Colocar IA” não é objetivo. Comece pelo problema e só depois escolha a ferramenta."
+   },
+   {
+    "type": "turn",
+    "title": "Na ByOrbit, IA entra <span class=\"blue\">quando faz sentido</span>.",
+    "sub": "E quando entra, vem com:",
+    "checks": [
+     "Os dados da sua empresa como base",
+     "Camada isolada e trocável",
+     "Monitoramento das respostas"
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "IA no seu produto faz sentido?",
+    "body": "Conte o problema que você quer resolver.<br>A ByOrbit responde em até 24h."
+   }
+  ],
+  "caption": "Nem todo produto precisa de IA. E colocar IA onde não precisa pode deixar o sistema mais caro e menos confiável.\n\n4 situações em que uma regra simples costuma resolver melhor:\n\n1. Quando a resposta precisa ser sempre igual.\n2. Quando um erro não pode acontecer.\n3. Quando o volume é enorme e a tarefa é simples.\n4. Quando ninguém sabe dizer o que ela vai resolver.\n\nIA é excelente para atendimento, busca e automações com textos e documentos. A pergunta certa não é \"onde coloco IA?\", e sim \"qual problema eu quero resolver?\".\n\nNa ByOrbit, quando a IA entra, ela fica numa camada própria: dá para trocar de modelo ou de fornecedor sem reescrever o resto do sistema.\n\nNa sua empresa, qual tarefa você acha que a IA resolveria? Conta aqui.\n\nQuer avaliar se IA faz sentido no seu produto? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#inteligenciaartificial #ia #produtodigital #desenvolvimentodesoftware #transformacaodigital",
+  "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Quando não colocar IA no seu produto', com a palavra não em azul e uma órbita fina no canto superior direito."
+ }
+]
