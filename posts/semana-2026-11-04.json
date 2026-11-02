@@ -1,0 +1,81 @@
+[
+{
+ "slug": "2026-11-04-agente-nao-e-chatbot",
+ "date": "2026-11-04",
+ "slides": [
+  {"type":"cover","title":"Agente de IA <span class=\"blue\">não é chatbot</span>. Entenda a diferença","sub":"E por que isso muda o que a IA pode fazer pela sua empresa."},
+  {"type":"text","title":"O chatbot responde. O agente executa.","body":"Um chatbot conversa e devolve uma resposta. Um agente recebe um objetivo, consulta sistemas, decide dentro de regras e conclui a tarefa."},
+  {"type":"item","num":"01","title":"Ele acessa os sistemas da empresa","body":"Consulta o CRM, lê os pedidos, verifica a agenda. Trabalha com os dados reais, não só com o que está na conversa."},
+  {"type":"item","num":"02","title":"Ele faz tarefas com várias etapas","body":"Recebe um lead, confere os dados, classifica, registra no CRM e avisa o vendedor certo. Tudo em sequência."},
+  {"type":"item","num":"03","title":"Ele segue regras e limites","body":"Você define o que ele pode fazer sozinho e o que precisa de aprovação. O agente não sai do combinado."},
+  {"type":"item","num":"04","title":"Cada ação fica registrada","body":"Tudo o que o agente consultou e fez fica no histórico. Dá para auditar, corrigir e melhorar."},
+  {"type":"turn","title":"A ByOrbit desenvolve <span class=\"blue\">agentes de IA</span> para a sua operação.","sub":"Conectados aos seus sistemas, com:","checks":["Regras e permissões definidas","Aprovação humana onde importa","Histórico de cada ação"]},
+  {"type":"cta","title":"Que tarefa um agente faria na sua empresa?","body":"Conte o processo que hoje toma tempo da equipe.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Muita empresa já testou um chatbot e achou que era isso a tal da IA. Agente é outra coisa.\n\nO chatbot conversa e responde. O agente recebe um objetivo e executa: consulta sistemas, segue regras e conclui a tarefa.\n\nNa prática, um agente de IA:\n\n1. Acessa os sistemas da empresa (CRM, pedidos, agenda)\n2. Faz tarefas com várias etapas, em sequência\n3. Segue regras e limites definidos por você\n4. Registra cada ação, para auditar e melhorar\n\nA ByOrbit desenvolve agentes de IA sob medida, conectados aos sistemas que a sua empresa já usa, com aprovação humana nos pontos que importam.\n\nQue tarefa repetitiva da sua equipe você entregaria para um agente? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#agentesdeia #inteligenciaartificial #automacao #softwarehouse #transformacaodigital",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Agente de IA não é chatbot. Entenda a diferença', com 'não é chatbot' em azul e uma órbita fina no canto superior direito."
+},
+{
+ "slug": "2026-11-05-ariane-5",
+ "date": "2026-11-05",
+ "slides": [
+  {"type":"cover","title":"<span class=\"blue\">37 segundos</span> de voo e um foguete a menos","sub":"O que o Ariane 5 ensina sobre reaproveitar código."},
+  {"type":"item","num":"1996","title":"Kourou, Guiana Francesa, 4 de junho.","body":"O primeiro voo do foguete europeu Ariane 5 durou cerca de 37 segundos. Ele saiu da rota e foi autodestruído."},
+  {"type":"text","title":"A causa estava num software do Ariane 4.","body":"O sistema de navegação reaproveitou código do foguete anterior. No Ariane 5, mais rápido, um valor ficou grande demais para o espaço reservado a ele."},
+  {"type":"text","title":"O erro derrubou os dois sistemas.","body":"O computador reserva rodava o mesmo código e falhou do mesmo jeito. A redundância não ajudou, porque o defeito era igual nos dois."},
+  {"type":"text","title":"Código que funciona num lugar pode falhar em outro.","body":"Reaproveitar código é bom. Reaproveitar sem testar no novo contexto é o risco. Mudou o uso, muda o teste."},
+  {"type":"turn","title":"Na ByOrbit, código reaproveitado <span class=\"blue\">passa por teste</span>.","sub":"Toda entrega vai para um ambiente de testes com:","checks":["Testes automatizados","Dados e volume próximos do real","Demonstração antes de ir ao ar"]},
+  {"type":"cta","title":"Seu sistema é testado antes de cada mudança?","body":"Conte como funciona hoje.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Em 1996, o primeiro voo do foguete europeu Ariane 5 durou cerca de 37 segundos. O motivo foi uma linha de software reaproveitada.\n\nO sistema de navegação usava código do Ariane 4. No foguete novo, mais rápido, um valor de velocidade ficou grande demais para o espaço reservado a ele no programa. O sistema falhou, e o reserva, que rodava o mesmo código, falhou junto.\n\nA lição vale para qualquer empresa: código que funciona num contexto pode falhar em outro. Reaproveitar é ótimo, desde que o teste acompanhe a mudança.\n\nNa ByOrbit, toda entrega passa por um ambiente de testes e por uma demonstração antes de ir ao ar.\n\nVocê conhecia essa história? Conta aqui qual bug famoso você quer ver no próximo post.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#curiosidadesdatecnologia #engenhariadesoftware #historiadatecnologia #testes #tecnologia",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título '37 segundos de voo e um foguete a menos', com '37 segundos' em azul e uma órbita fina no canto superior direito."
+},
+{
+ "slug": "2026-11-06-planilha-para-sistema",
+ "date": "2026-11-06",
+ "slides": [
+  {"type":"cover","title":"Sua empresa ainda roda em <span class=\"blue\">planilha</span>?","sub":"5 sinais de que é hora de ter um sistema próprio."},
+  {"type":"text","title":"Planilha é ótima para começar.","body":"O problema aparece quando a empresa cresce e a planilha vira o sistema principal da operação, sem controle de quem mexe em quê."},
+  {"type":"item","num":"01","title":"Várias versões do mesmo arquivo","body":"\"Controle_final_v3_revisado\". Ninguém sabe qual é a certa, e as decisões saem de números diferentes."},
+  {"type":"item","num":"02","title":"Só uma pessoa entende a planilha","body":"Se ela sai de férias, a operação trava. O conhecimento está nas fórmulas, não num processo."},
+  {"type":"item","num":"03","title":"Uma fórmula apagada sem querer","body":"E o erro só aparece no fechamento do mês. Planilha não tem permissão por pessoa nem histórico confiável."},
+  {"type":"item","num":"04","title":"A equipe copia dados de um lugar para outro","body":"Do e-mail para a planilha, da planilha para o ERP. Cada cópia é tempo perdido e chance de erro."},
+  {"type":"item","num":"05","title":"O cliente espera alguém procurar a informação","body":"Status do pedido, estoque, prazo. Se a resposta depende de abrir três arquivos, o cliente sente."},
+  {"type":"turn","title":"A ByOrbit transforma a planilha em <span class=\"blue\">sistema interno</span>.","sub":"Feito para o seu processo, com:","checks":["Permissões por pessoa","Histórico de cada alteração","Integração com o que você já usa"]},
+  {"type":"cta","title":"Quantas planilhas sua operação usa hoje?","body":"Conte o processo que mais depende delas.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Toda empresa começa na planilha. O problema é quando ela vira o sistema principal da operação.\n\n5 sinais de que é hora de ter um sistema próprio:\n\n1. Várias versões do mesmo arquivo circulando\n2. Só uma pessoa entende como a planilha funciona\n3. Uma fórmula apagada sem querer vira erro no fechamento\n4. A equipe copia dados de um lugar para outro\n5. O cliente espera enquanto alguém procura a informação\n\nA ByOrbit desenvolve sistemas internos sob medida para o seu processo, com permissões por pessoa, histórico de cada alteração e integração com o ERP e as ferramentas que você já usa. Escopo e orçamento ficam definidos antes de começar.\n\nQuantos desses sinais você reconhece na sua empresa? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#gestaoempresarial #softwaresobmedida #softwarehouse #produtividade #empreendedorismo",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Sua empresa ainda roda em planilha?', com a palavra planilha em azul e uma órbita fina no canto superior direito."
+},
+{
+ "slug": "2026-11-07-apollo-11",
+ "date": "2026-11-07",
+ "slides": [
+  {"type":"cover","title":"A Apollo 11 pousou com <span class=\"blue\">4&nbsp;KB</span> de memória","sub":"E um software que sabia o que fazer quando ficou sobrecarregado."},
+  {"type":"item","num":"1969","title":"20 de julho, minutos antes do pouso.","body":"O computador de bordo da Apollo 11 tinha cerca de 4 KB de memória de trabalho. Hoje, isso não guarda nem uma foto pequena."},
+  {"type":"text","title":"No meio da descida, alarmes: 1202 e 1201.","body":"O computador estava recebendo mais tarefas do que conseguia processar, e avisou a tripulação."},
+  {"type":"text","title":"O software priorizou o que importava.","body":"Projetado no laboratório do MIT, com Margaret Hamilton à frente da engenharia de software, o sistema deixava de lado tarefas menores e mantinha as essenciais."},
+  {"type":"text","title":"O computador não travou. E o pouso aconteceu.","body":"Com o aval do controle da missão, a tripulação seguiu. O sistema fez o que dava, na ordem certa."},
+  {"type":"turn","title":"Na ByOrbit, sistema bom é o que <span class=\"blue\">aguenta o pico</span>.","sub":"Antes de ir ao ar, todo produto passa por:","checks":["Testes de desempenho","Prioridade para o que é crítico","Monitoramento e alertas"]},
+  {"type":"cta","title":"Seu sistema aguenta um dia de pico?","body":"Conte como ele se comporta hoje.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "O computador que levou o homem à Lua tinha cerca de 4 KB de memória de trabalho. E, no momento mais crítico da missão, ficou sobrecarregado.\n\nMinutos antes do pouso da Apollo 11, em 1969, apareceram os alarmes 1202 e 1201: o computador recebia mais tarefas do que conseguia processar. Em vez de travar, o software, desenvolvido no MIT com Margaret Hamilton à frente da engenharia de software, priorizou as tarefas essenciais e deixou de lado as menores. O pouso aconteceu.\n\nMais de 50 anos depois, a lição continua: sistema bom não é o que nunca recebe carga demais. É o que sabe o que fazer quando recebe.\n\nNa ByOrbit, todo produto passa por testes de desempenho e vai ao ar com monitoramento e alertas.\n\nSeu sistema já travou num dia de movimento alto? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h. 🚀\n\n#curiosidadesdatecnologia #apollo11 #nasa #engenhariadesoftware #tecnologia",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'A Apollo 11 pousou com 4 KB de memória', com '4 KB' em azul e uma órbita fina no canto superior direito."
+},
+{
+ "slug": "2026-11-08-chave-de-api-exposta",
+ "date": "2026-11-08",
+ "slides": [
+  {"type":"cover","title":"Sua <span class=\"blue\">chave de API</span> está à vista de todo mundo?","sub":"Um erro comum em apps feitos rápido com IA."},
+  {"type":"text","title":"Chave de API é a senha do seu sistema.","body":"Ela dá acesso a pagamentos, e-mails, banco de dados e modelos de IA. Quem tiver a chave usa tudo isso como se fosse você."},
+  {"type":"item","num":"01","title":"Chave dentro do app","body":"Se a chave está no código do site ou do aplicativo, qualquer pessoa com conhecimento básico consegue encontrá-la."},
+  {"type":"item","num":"02","title":"Chave publicada no repositório","body":"Enviar o código para um repositório público com a chave junto é deixar a senha à mostra. Robôs procuram isso o tempo todo."},
+  {"type":"item","num":"03","title":"Chave com acesso demais","body":"Uma chave que pode tudo, quando vaza, compromete tudo. Cada chave deveria ter só a permissão de que precisa."},
+  {"type":"item","num":"04","title":"Ninguém percebe o vazamento","body":"Sem monitoramento de uso, a primeira notícia costuma ser a fatura alta ou os dados expostos."},
+  {"type":"turn","title":"A ByOrbit faz a <span class=\"blue\">revisão de segurança</span> do seu app.","sub":"Antes de crescer, a gente verifica:","checks":["Chaves fora do código do app","Permissões mínimas por serviço","Alertas de uso fora do normal"]},
+  {"type":"cta","title":"Seu app foi feito com ajuda de IA?","body":"Conte o que você construiu.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "A IA ajuda a colocar um app no ar em poucos dias. Mas ela nem sempre avisa onde você deixou a chave da porta.\n\nChave de API funciona como a senha do seu sistema com outros serviços: pagamentos, e-mail, banco de dados, modelos de IA. Quem tiver a chave usa tudo como se fosse você.\n\n4 situações que expõem essa chave:\n\n1. Chave escrita no código do site ou do app\n2. Código enviado para um repositório público com a chave junto\n3. Uma única chave com acesso a tudo\n4. Nenhum monitoramento de uso para perceber o vazamento\n\nA ByOrbit faz revisão técnica e de segurança de apps feitos com IA, e reconstrói o que for preciso para o produto crescer com segurança.\n\nVocê já conferiu onde estão as chaves do seu app? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#vibecoding #segurancadainformacao #desenvolvimentodesoftware #startups #softwarehouse",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Sua chave de API está à vista de todo mundo?', com 'chave de API' em azul e uma órbita fina no canto superior direito."
+}
+]
