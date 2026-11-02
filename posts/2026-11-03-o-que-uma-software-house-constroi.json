@@ -1,0 +1,19 @@
+[
+{
+ "slug": "2026-11-03-o-que-uma-software-house-constroi",
+ "date": "2026-11-03",
+ "slides": [
+  {"type":"cover","title":"6 coisas que uma <span class=\"blue\">software house</span> pode construir para sua empresa","sub":"Se alguma delas resolve um problema seu, vale conversar."},
+  {"type":"item","num":"01","title":"Sistema interno no lugar da planilha","body":"Cadastros, estoque, pedidos e aprovações num só lugar, com histórico e permissões por pessoa."},
+  {"type":"item","num":"02","title":"Portal do cliente","body":"Seu cliente acompanha pedidos, baixa documentos e abre chamados sem depender do WhatsApp."},
+  {"type":"item","num":"03","title":"App para a equipe de campo","body":"Vendedores e técnicos registram visitas, fotos e pedidos no celular, direto no sistema da empresa."},
+  {"type":"item","num":"04","title":"Integração entre sistemas","body":"ERP, CRM e pagamentos trocando dados sozinhos. A mesma informação, sem digitar duas vezes."},
+  {"type":"item","num":"05","title":"Dashboards e relatórios automáticos","body":"Os números do negócio atualizados todo dia, sem montar planilha no fim do mês."},
+  {"type":"item","num":"06","title":"Agentes de IA","body":"Triagem de leads, primeiro atendimento e conferência de documentos, com regras claras e supervisão humana."},
+  {"type":"turn","title":"A ByOrbit constrói <span class=\"blue\">o projeto inteiro</span>.","sub":"E todo projeto começa do mesmo jeito:","checks":["Briefing com resposta em 24h","Descoberta com escopo e orçamento","Demonstrações semanais na construção"]},
+  {"type":"cta","title":"Qual dessas sua empresa precisa?","body":"Conte o que trava a sua operação.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Nem todo projeto de software é um aplicativo. Muitas vezes, é o fim da planilha que ninguém aguenta mais.\n\n6 coisas que uma software house pode construir para a sua empresa:\n\n1. Sistema interno no lugar da planilha\n2. Portal do cliente\n3. App para a equipe de campo\n4. Integração entre ERP, CRM e pagamentos\n5. Dashboards e relatórios automáticos\n6. Agentes de IA para tarefas repetitivas\n\nA ByOrbit desenvolve todos esses projetos sob medida, do briefing ao sistema no ar, com escopo e orçamento definidos antes de começar. Um MVP começa em R$ 20 mil.\n\nQual desses resolveria o maior problema da sua empresa hoje? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#softwarehouse #softwaresobmedida #agentesdeia #transformacaodigital #gestaoempresarial",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título '6 coisas que uma software house pode construir para sua empresa', com 'software house' em azul e uma órbita fina no canto superior direito."
+}
+]
