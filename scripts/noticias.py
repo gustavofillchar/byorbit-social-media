@@ -341,23 +341,30 @@ def run_daily(dry):
 def run_breaking(dry):
     reg = load_log()
     today = NOW.strftime("%Y-%m-%d")
-    if sum(1 for b in reg["breaking"] if b["date"] == today) >= 2 and not dry:
-        log("Já houve 2 breakings hoje. Nada a fazer.")
+    if sum(1 for b in reg["breaking"] if b["date"] == today) >= 1 and not dry:
+        log("Já houve breaking hoje. Nada a fazer.")
         return
     items = [i for i in collect(4) if i["link"] not in reg["links"]]
     if not items:
         log("Nenhuma notícia nova.")
         return
     recentes = "\n".join(reg.get("titulos", [])[-40:])
-    d = claude("Decida se alguma destas notícias das últimas horas é um BREAKING de verdade: um fato grande, novo e "
-               "relevante para empresas (ex.: lançamento muito importante, aquisição bilionária, falha ou ataque que "
-               "afeta milhões, mudança regulatória grande). Ele PRECISA aparecer em pelo menos 2 portais diferentes da "
-               "lista. Na dúvida, responda que não. Não repita assuntos já publicados:\n" + (recentes or "(nenhum)") +
-               "\n\nFormato: {\"breaking\": true|false, \"indices\": [índices das matérias sobre o fato, de portais "
-               "diferentes], \"motivo\": \"...\"}\n\n" + listing(items[:80]), 8000)
+    d = claude("Você decide se existe um BREAKING. Seja MUITO criterioso: a maioria das verificações deve "
+               "terminar sem breaking. Só é breaking um fato que acabou de acontecer e que um empresário brasileiro "
+               "comentaria hoje, com impacto amplo. Exemplos que CONTAM: aquisição ou fusão de dezenas de bilhões; "
+               "lançamento histórico de uma big tech ou de um modelo de IA de ponta que muda o mercado; falha ou "
+               "ataque que derruba serviços usados por milhões ou vaza dados em massa; decisão regulatória grande "
+               "sobre IA ou big techs. NÃO contam: rodadas de investimento, atualizações de produto, betas, rumores, "
+               "vazamentos de especificação, análises, opinião, reviews, resultados trimestrais dentro do esperado e "
+               "notícias que só interessam a um nicho. O fato PRECISA aparecer em pelo menos 2 portais diferentes da "
+               "lista. Dê uma nota de 0 a 10 para o fato mais forte; breaking só com nota 9 ou 10. Na dúvida, não. "
+               "Não repita assuntos já publicados:\n" + (recentes or "(nenhum)") +
+               "\n\nFormato: {\"breaking\": true|false, \"nota\": 0-10, \"indices\": [índices das matérias sobre o "
+               "fato, de portais diferentes], \"motivo\": \"...\"}\n\n" + listing(items[:80]), 8000)
     log(f"Avaliação: {d}")
     idx = d.get("indices") or []
-    if not d.get("breaking") or len({items[i]["source"] for i in idx if i < len(items)}) < 2:
+    if (not d.get("breaking") or (d.get("nota") or 0) < 9
+            or len({items[i]["source"] for i in idx if i < len(items)}) < 2):
         log("Sem breaking agora.")
         return
     chosen = [items[idx[0]]]
