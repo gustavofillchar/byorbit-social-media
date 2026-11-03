@@ -1,0 +1,6 @@
+[20:22:58] feed The Register falhou: not well-formed (invalid token): line 7, column 22
+[20:22:58] 102 notícias nas últimas 30h
+[20:23:18] resposta da API inválida: Expecting value: line 1 column 1 (char 0)
+[20:23:47] resposta da API inválida: Expecting value: line 1 column 1 (char 0)
+[20:24:14] resposta da API inválida: Expecting value: line 1 column 1 (char 0)
+Não consegui uma resposta válida da API da Anthropic
