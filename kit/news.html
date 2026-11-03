@@ -58,6 +58,14 @@ p{font-size:33px;line-height:1.45;color:var(--muted);margin-top:28px;text-wrap:p
 .cta{margin-top:50px;display:flex;align-items:center;gap:16px;font-size:36px;font-weight:600;color:var(--blue);letter-spacing:-0.02em}
 .biglogo{position:absolute;left:var(--m);bottom:220px;height:88px}
 .story .foot .mono{color:var(--muted)}
+/* tema claro */
+.light{--bg:#F7F7F8;--fg:#0B0B0F;--muted:#4B4B55;--dim:#6E6E78;--lilac:#3451D1;--line:rgba(9,9,11,.09)}
+.light::before{opacity:.55}
+.light .photo{background:#E4E4E7}
+.light .photo::after{box-shadow:inset 0 0 0 1px rgba(9,9,11,.06);background:none}
+.light .pill.daily{border-color:rgba(52,81,209,.35)}
+.light .orbit circle:first-child{stroke:#4263EB;stroke-opacity:.22}
+.light .orbit circle:last-child{stroke:#09090B;stroke-opacity:.08}
 </style>
 </head>
 <body>
@@ -78,18 +86,19 @@ function inner(s,post){
     case"cover":return `<div class="body"><h1>${s.title}</h1><div class="date">${s.date}</div><ul class="list">${s.items.map((t,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span>${t}</li>`).join('')}</ul></div>`;
     case"news":return `<div class="photo"><img src="${s.image}" alt=""><span class="credit">${s.credit}</span></div>
       <div class="body"><div class="company">${s.company}</div><h2>${s.title}</h2><p>${s.body}</p></div>`;
-    case"end":return `<div class="body"><h1>${s.title}</h1><p>${s.body}</p><div class="cta">Fale com a ByOrbit ${arrow('#4263EB',34)} link na bio</div></div><img class="biglogo" src="logo-full.svg" alt="ByOrbit">`;
+    case"end":return `<div class="body"><h1>${s.title}</h1><p>${s.body}</p><div class="cta">Fale com a ByOrbit ${arrow('#4263EB',34)} link na bio</div></div><img class="biglogo" src="${post.theme==='dark'?'logo-full.svg':'logo-full-dark.svg'}" alt="ByOrbit">`;
   }
 }
 function build(post){
   const root=document.getElementById('root');root.innerHTML='';const N=post.slides.length;const story=post.format==='story';
+  const light=post.theme!=='dark';const logo=light?'logo-full-dark.svg':'logo-full.svg';
   post.slides.forEach((s,i)=>{const n=String(i+1).padStart(2,'0');const last=i===N-1;
-    const el=document.createElement('section');el.className='slide '+s.type+(story?' story':'');el.id='s'+(i+1);
+    const el=document.createElement('section');el.className='slide '+s.type+(story?' story':'')+(light?' light':'');el.id='s'+(i+1);
     const right=story||N===1?pill(post.kind):`${i===0?pill(post.kind):''}<span class="count"><b>${n}</b> / ${String(N).padStart(2,'0')}</span>`;
     let foot;
     if(s.type==='news') foot=`<span class="src">Fonte: <b>${s.source}</b> · ${s.sourceDate}</span>${story?'<span class="mono">Mais no perfil @byorbit.tech</span>':(!last?`<span class="swipe">Deslize ${arrow('#A1A1AA',30)}</span>`:'<span class="mono">byorbit.space</span>')}`;
     else foot=`<span class="mono">byorbit.space</span>${!last?`<span class="swipe">Deslize ${arrow('#A1A1AA',30)}</span>`:''}`;
-    el.innerHTML=orbit(story?1920:1440)+`<div class="head">${s.type==='end'?'<span></span>':'<img src="logo-full.svg" alt="ByOrbit">'}<div class="right">${right}</div></div>${inner(s,post)}<div class="foot">${foot}</div>`;
+    el.innerHTML=orbit(story?1920:1440)+`<div class="head">${s.type==='end'?'<span></span>':`<img src="${logo}" alt="ByOrbit">`}<div class="right">${right}</div></div>${inner(s,post)}<div class="foot">${foot}</div>`;
     root.appendChild(el);
   });
 }
