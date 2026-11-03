@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  START_DATE: "2026-11-21"   # até 20/11 quem publica é o Metricool
+  START_DATE: "2026-11-04"   # a partir de 04/11 o robô publica sozinho (Metricool desligado)
 
 jobs:
   publicar:
