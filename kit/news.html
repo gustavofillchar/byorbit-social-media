@@ -80,7 +80,7 @@ p{font-size:33px;line-height:1.45;color:var(--muted);margin-top:28px;text-wrap:p
 */
 const arrow=(c,s=32)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>`;
 function orbit(h){const cx=1180,cy=120,r=470;return `<svg class="orbit" width="1080" height="${h}" viewBox="0 0 1080 ${h}"><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#8DA2FF" stroke-opacity=".28" stroke-width="1.5"/><circle cx="${cx}" cy="${cy}" r="${r+140}" fill="none" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="1" stroke-dasharray="2 10"/></svg>`}
-function pill(kind){return kind==='breaking'?`<span class="pill breaking"><span class="dot"></span>Breaking</span>`:`<span class="pill daily"><span class="dot"></span>Tech do dia</span>`}
+function pill(kind){return kind==='breaking'?`<span class="pill breaking"><span class="dot"></span>Breaking</span>`:`<span class="pill daily"><span class="dot"></span>Tech News</span>`}
 function inner(s,post){
   switch(s.type){
     case"cover":return `<div class="body"><h1>${s.title}</h1><div class="date">${s.date}</div><ul class="list">${s.items.map((t,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span>${t}</li>`).join('')}</ul></div>`;
