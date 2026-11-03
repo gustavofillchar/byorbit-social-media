@@ -238,7 +238,7 @@ def ig_go(container):
 
 # ---------- registro ----------
 def load_log():
-    return json.load(open(LOG)) if os.path.exists(LOG) else {"daily": {}, "breaking": [], "links": [], "_fotos": []}
+    return json.load(open(LOG)) if os.path.exists(LOG) else {"daily": {}, "breaking": [], "links": [], "titulos": [], "_fotos": []}
 
 
 def save_log(d):
@@ -317,8 +317,10 @@ def run_daily(dry):
     items = [i for i in collect(30) if i["link"] not in reg["links"]]
     if len(items) < 4:
         sys.exit("Poucas notícias novas nos feeds")
+    ja = "\n".join(reg.get("titulos", [])[-40:]) or "(nenhum)"
     pick = claude("Escolha as 4 notícias mais relevantes e variadas para o público (assuntos diferentes, sem duas "
-                  "sobre o mesmo fato). Formato: {\"escolhidas\":[índices]}\n\n" + listing(items[:80]), 8000)
+                  "sobre o mesmo fato). NÃO escolha nenhum fato já publicado nos últimos dias, mesmo que venha de "
+                  "outro portal:\n" + ja + "\n\nFormato: {\"escolhidas\":[índices]}\n\n" + listing(items[:80]), 8000)
     chosen = [items[i] for i in pick["escolhidas"][:4]]
     data, folders, fotos = produce(chosen, "daily", f"tech-news-{key}")
     jpgs = to_jpegs(folders[0])
@@ -329,6 +331,7 @@ def run_daily(dry):
     link = ig_go(ig_carousel(jpgs, data["caption"]))
     reg["daily"][key] = link
     reg["links"] += [c["link"] for c in chosen]
+    reg.setdefault("titulos", []).extend(n["short"] for n in data["news"])
     reg["_fotos"] += fotos
     save_log(reg)
     git_push(f"Registro Tech News {key}")
@@ -345,7 +348,7 @@ def run_breaking(dry):
     if not items:
         log("Nenhuma notícia nova.")
         return
-    recentes = "\n".join(b["title"] for b in reg["breaking"][-15:])
+    recentes = "\n".join(reg.get("titulos", [])[-40:])
     d = claude("Decida se alguma destas notícias das últimas horas é um BREAKING de verdade: um fato grande, novo e "
                "relevante para empresas (ex.: lançamento muito importante, aquisição bilionária, falha ou ataque que "
                "afeta milhões, mudança regulatória grande). Ele PRECISA aparecer em pelo menos 2 portais diferentes da "
@@ -371,6 +374,7 @@ def run_breaking(dry):
     except SystemExit as e:
         log(f"Story falhou (feed publicado): {e}")
     reg["breaking"].append({"date": today, "title": data["news"][0]["short"], "link": link})
+    reg.setdefault("titulos", []).append(data["news"][0]["short"])
     reg["links"] += [items[i]["link"] for i in idx if i < len(items)]
     reg["_fotos"] += fotos
     save_log(reg)
