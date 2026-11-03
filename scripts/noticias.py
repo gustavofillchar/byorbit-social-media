@@ -31,7 +31,6 @@ FEEDS = {
     "Wired": "https://www.wired.com/feed/rss",
     "Engadget": "https://www.engadget.com/rss.xml",
     "MIT Technology Review": "https://www.technologyreview.com/feed/",
-    "The Register": "https://www.theregister.com/headlines.atom",
 }
 
 REGRAS = """Você é o editor do "Tech News", a seção de notícias de tecnologia do Instagram da ByOrbit,
@@ -121,17 +120,20 @@ def claude(prompt, max_tokens=3000):
     body = json.dumps({"model": MODEL, "max_tokens": max_tokens, "system": REGRAS,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
     for attempt in range(3):
+        r, text = {}, ""
         try:
             r = json.loads(http("https://api.anthropic.com/v1/messages", data=body, timeout=180, headers={
                 "x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                 "content-type": "application/json"}))
-            text = "".join(b.get("text", "") for b in r["content"])
+            text = "".join(b.get("text", "") for b in r.get("content", []))
             m = re.search(r"<json>(.*?)</json>", text, re.S)
-            return json.loads(m.group(1) if m else text)
+            chunk = m.group(1) if m else text
+            chunk = chunk[chunk.find("{"):chunk.rfind("}") + 1]
+            return json.loads(chunk)
         except urllib.error.HTTPError as e:
             log(f"API Anthropic erro {e.code}: {e.read().decode()[:300]}")
         except Exception as e:
-            log(f"resposta da API inválida: {e}")
+            log(f"resposta da API inválida: {e} | stop={r.get('stop_reason')} | início: {(text or str(r))[:300]!r}")
         time.sleep(10)
     sys.exit("Não consegui uma resposta válida da API da Anthropic")
 
