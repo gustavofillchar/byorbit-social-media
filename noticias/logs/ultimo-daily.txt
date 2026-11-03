@@ -1,1 +1,4 @@
 [20:36:48] 101 notícias nas últimas 30h
+tech-news-2026-11-03 6 slides ok
+ 
+[20:37:58] TESTE: artes geradas e salvas em noticias/posts/, nada publicado.
