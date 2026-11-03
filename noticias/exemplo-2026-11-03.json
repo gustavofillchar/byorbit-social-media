@@ -1,0 +1,46 @@
+[
+{
+ "slug": "noticias-2026-11-03-tech-do-dia",
+ "format": "feed", "kind": "daily",
+ "slides": [
+  {"type":"cover","title":"Tech do dia","date":"03 de novembro de 2026","items":[
+    "Apple Watch testa IA que resume conversas",
+    "Memória cara faz estoque da Apple subir 154%",
+    "CEO da Y Combinator gasta até US$ 200 mil com IA",
+    "Startup capta US$ 45 mi para treinar IA sem programar"]},
+  {"type":"news","company":"Apple","title":"Apple Watch começa a testar <span class=\"blue\">IA que resume conversas</span>",
+   "body":"Os recursos Live Rewind e Siri Recaps entraram em beta para desenvolvedores. O relógio mostra em texto os últimos 15 segundos de fala e gera resumos que são apagados em até 7 dias.",
+   "image":"../noticias/img/apple-watch.jpg","credit":"Foto: Pexels","source":"TechCrunch","sourceDate":"02/11/2026"},
+  {"type":"news","company":"Apple","title":"Memória mais cara faz o estoque da Apple <span class=\"blue\">subir 154%</span>",
+   "body":"O estoque chegou a US$ 14,5 bilhões no trimestre. A Apple prevê margem menor no fim do ano e diz que o preço da memória está em um nível sem precedentes.",
+   "image":"../noticias/img/memoria.jpg","credit":"Foto: Pexels","source":"TechCrunch","sourceDate":"02/11/2026"},
+  {"type":"news","company":"Y Combinator","title":"CEO da Y Combinator gasta até <span class=\"blue\">US$ 200 mil por ano</span> com agentes de IA",
+   "body":"Garry Tan contou em um podcast que seu agente acessa e-mail, arquivos e anotações. Para ele, agentes pessoais só vão se popularizar quando o custo cair.",
+   "image":"../noticias/img/servidores.jpg","credit":"Foto: Pexels","source":"TechCrunch","sourceDate":"02/11/2026"},
+  {"type":"news","company":"Trajectory","title":"Startup capta <span class=\"blue\">US$ 45 milhões</span> para treinar IA sem programar",
+   "body":"Fundada por ex-integrantes do Google DeepMind e da Apple, a Trajectory deixa especialistas como advogados e médicos melhorarem modelos de IA. A rodada foi liderada pela Sequoia.",
+   "image":"../noticias/img/codigo.jpg","credit":"Foto: Pexels","source":"TechCrunch","sourceDate":"02/11/2026"},
+  {"type":"end","title":"Tecnologia sem jargão, todo dia.","body":"As principais notícias internacionais, traduzidas e resumidas.<br>Quer levar IA para a sua empresa? A ByOrbit responde em até 24h."}
+ ],
+ "caption": "As notícias de tecnologia que importam hoje, traduzidas e resumidas:\n\n1. Apple Watch começa a testar IA que resume conversas\n2. Memória mais cara faz o estoque da Apple subir 154%\n3. CEO da Y Combinator gasta até US$ 200 mil por ano com agentes de IA\n4. Startup Trajectory capta US$ 45 milhões para treinar IA sem programar\n\nQual dessas te chamou mais atenção? Conta aqui.\n\nFonte: TechCrunch (02/11/2026). Fotos ilustrativas: Pexels.\n\nQuer levar IA para a sua empresa? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#noticiasdetecnologia #inteligenciaartificial #apple #startups #tecnologia",
+ "alt": "Capa do carrossel Tech do dia da ByOrbit, com a data de 3 de novembro de 2026 e a lista das quatro notícias."
+},
+{
+ "slug": "noticias-2026-11-03-breaking-feed",
+ "format": "feed", "kind": "breaking",
+ "slides": [
+  {"type":"news","company":"Apple","title":"Apple Watch começa a testar <span class=\"blue\">IA que resume conversas</span>",
+   "body":"Os recursos Live Rewind e Siri Recaps entraram em beta para desenvolvedores. O relógio mostra em texto os últimos 15 segundos de fala e gera resumos que são apagados em até 7 dias.",
+   "image":"../noticias/img/smartwatch.jpg","credit":"Foto: Pexels","source":"TechCrunch","sourceDate":"02/11/2026"}
+ ]
+},
+{
+ "slug": "noticias-2026-11-03-breaking-story",
+ "format": "story", "kind": "breaking",
+ "slides": [
+  {"type":"news","company":"Apple","title":"Apple Watch começa a testar <span class=\"blue\">IA que resume conversas</span>",
+   "body":"Os recursos Live Rewind e Siri Recaps entraram em beta para desenvolvedores. O relógio mostra em texto os últimos 15 segundos de fala e gera resumos apagados em até 7 dias.",
+   "image":"../noticias/img/smartwatch.jpg","credit":"Foto: Pexels","source":"TechCrunch","sourceDate":"02/11/2026"}
+ ]
+}
+]

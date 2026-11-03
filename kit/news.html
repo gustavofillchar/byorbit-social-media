@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>ByOrbit notícias</title>
+<style>
+@font-face{font-family:Geist;src:url(fonts/Geist-Regular.woff2) format("woff2");font-weight:400}
+@font-face{font-family:Geist;src:url(fonts/Geist-Medium.woff2) format("woff2");font-weight:500}
+@font-face{font-family:Geist;src:url(fonts/Geist-SemiBold.woff2) format("woff2");font-weight:600}
+@font-face{font-family:"Geist Mono";src:url(fonts/GeistMono-Regular.woff2) format("woff2");font-weight:400}
+:root{--bg:#09090B;--fg:#EDEDEF;--muted:#A1A1AA;--dim:#82828C;--blue:#4263EB;--lilac:#8DA2FF;--red:#F04A4A;--line:rgba(255,255,255,.08);--m:84px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.slide{position:relative;width:1080px;height:1440px;background:var(--bg);overflow:hidden;color:var(--fg)}
+.slide.story{height:1920px}
+.slide::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:120px 120px;background-position:-24px -24px;opacity:.3;-webkit-mask-image:radial-gradient(110% 70% at 90% 0%,#000 0%,transparent 70%);mask-image:radial-gradient(110% 70% at 90% 0%,#000 0%,transparent 70%)}
+.orbit{position:absolute;inset:0;pointer-events:none}
+.head,.foot{position:absolute;left:var(--m);right:var(--m);display:flex;align-items:center;justify-content:space-between;z-index:2}
+.head{top:72px;height:48px}
+.head img{height:42px;display:block}
+.right{display:flex;align-items:center;gap:22px}
+.count,.mono{font-family:"Geist Mono",monospace;font-size:24px;color:var(--dim);letter-spacing:.02em}
+.count b{color:var(--fg);font-weight:400}
+.pill{display:inline-flex;align-items:center;gap:12px;height:48px;padding:0 22px;border-radius:999px;font-family:"Geist Mono",monospace;font-size:22px;letter-spacing:.12em;text-transform:uppercase}
+.pill.daily{border:1px solid rgba(141,162,255,.45);color:var(--lilac)}
+.pill.breaking{background:var(--blue);color:#fff}
+.pill .dot{width:12px;height:12px;border-radius:50%;background:currentColor}
+.pill.breaking .dot{background:#fff;box-shadow:0 0 0 6px rgba(255,255,255,.22)}
+.foot{bottom:72px;padding-top:26px;border-top:1px solid var(--line)}
+.swipe{display:flex;align-items:center;gap:12px;font-size:26px;color:var(--muted);font-weight:500}
+.photo{position:absolute;left:var(--m);right:var(--m);top:156px;height:560px;border-radius:28px;overflow:hidden;background:#15151a}
+.story .photo{top:200px;height:820px}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo::after{content:"";position:absolute;inset:0;border-radius:28px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);background:linear-gradient(180deg,transparent 60%,rgba(9,9,11,.55))}
+.credit{position:absolute;left:20px;bottom:18px;z-index:1;font-family:"Geist Mono",monospace;font-size:19px;color:#E4E4E7;background:rgba(9,9,11,.62);padding:7px 13px;border-radius:8px;letter-spacing:.02em}
+.body{position:absolute;left:var(--m);right:var(--m);top:768px}
+.story .body{top:1080px}
+.company{display:flex;align-items:center;gap:14px;font-family:"Geist Mono",monospace;font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:var(--lilac);margin-bottom:26px}
+.company::before{content:"";width:28px;height:2px;background:var(--blue)}
+h1,h2{font-weight:600;letter-spacing:-0.035em;text-wrap:balance}
+h2{font-size:62px;line-height:1.06}
+.story h2{font-size:72px}
+p{font-size:33px;line-height:1.45;color:var(--muted);margin-top:28px;text-wrap:pretty}
+.story p{font-size:37px}
+.src{font-family:"Geist Mono",monospace;font-size:23px;color:var(--dim);letter-spacing:.01em}
+.src b{color:var(--fg);font-weight:400}
+.blue{color:var(--blue)}
+/* capa do carrossel diário */
+.cover .body{top:300px}
+.cover h1{font-size:132px;line-height:.95}
+.cover .date{font-family:"Geist Mono",monospace;font-size:30px;color:var(--lilac);letter-spacing:.08em;margin-top:34px;text-transform:uppercase}
+.list{list-style:none;margin-top:80px;display:grid;gap:0;border-top:1px solid var(--line)}
+.list li{display:flex;gap:30px;align-items:baseline;padding:30px 0;border-bottom:1px solid var(--line);font-size:36px;line-height:1.25;font-weight:500;letter-spacing:-0.01em}
+.list li span{font-family:"Geist Mono",monospace;font-size:24px;color:var(--blue);flex:none;width:44px}
+/* fechamento */
+.end .body{top:auto;bottom:400px}
+.end h1{font-size:96px;line-height:1.02}
+.cta{margin-top:50px;display:flex;align-items:center;gap:16px;font-size:36px;font-weight:600;color:var(--blue);letter-spacing:-0.02em}
+.biglogo{position:absolute;left:var(--m);bottom:220px;height:88px}
+.story .foot .mono{color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+/*
+  POST = {format:"feed"|"story", kind:"daily"|"breaking", date:"03/11/2026", slides:[...]}
+  slides:
+  {type:"cover", title, date, items:[headlines curtas]}       capa do "Tech do dia"
+  {type:"news", company, title, body, image, credit, source, sourceDate}
+  {type:"end", title, body}
+*/
+const arrow=(c,s=32)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>`;
+function orbit(h){const cx=1180,cy=120,r=470;return `<svg class="orbit" width="1080" height="${h}" viewBox="0 0 1080 ${h}"><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#8DA2FF" stroke-opacity=".28" stroke-width="1.5"/><circle cx="${cx}" cy="${cy}" r="${r+140}" fill="none" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="1" stroke-dasharray="2 10"/></svg>`}
+function pill(kind){return kind==='breaking'?`<span class="pill breaking"><span class="dot"></span>Breaking</span>`:`<span class="pill daily"><span class="dot"></span>Tech do dia</span>`}
+function inner(s,post){
+  switch(s.type){
+    case"cover":return `<div class="body"><h1>${s.title}</h1><div class="date">${s.date}</div><ul class="list">${s.items.map((t,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span>${t}</li>`).join('')}</ul></div>`;
+    case"news":return `<div class="photo"><img src="${s.image}" alt=""><span class="credit">${s.credit}</span></div>
+      <div class="body"><div class="company">${s.company}</div><h2>${s.title}</h2><p>${s.body}</p></div>`;
+    case"end":return `<div class="body"><h1>${s.title}</h1><p>${s.body}</p><div class="cta">Fale com a ByOrbit ${arrow('#4263EB',34)} link na bio</div></div><img class="biglogo" src="logo-full.svg" alt="ByOrbit">`;
+  }
+}
+function build(post){
+  const root=document.getElementById('root');root.innerHTML='';const N=post.slides.length;const story=post.format==='story';
+  post.slides.forEach((s,i)=>{const n=String(i+1).padStart(2,'0');const last=i===N-1;
+    const el=document.createElement('section');el.className='slide '+s.type+(story?' story':'');el.id='s'+(i+1);
+    const right=story||N===1?pill(post.kind):`${i===0?pill(post.kind):''}<span class="count"><b>${n}</b> / ${String(N).padStart(2,'0')}</span>`;
+    let foot;
+    if(s.type==='news') foot=`<span class="src">Fonte: <b>${s.source}</b> · ${s.sourceDate}</span>${story?'<span class="mono">Mais no perfil @byorbit.tech</span>':(!last?`<span class="swipe">Deslize ${arrow('#A1A1AA',30)}</span>`:'<span class="mono">byorbit.space</span>')}`;
+    else foot=`<span class="mono">byorbit.space</span>${!last?`<span class="swipe">Deslize ${arrow('#A1A1AA',30)}</span>`:''}`;
+    el.innerHTML=orbit(story?1920:1440)+`<div class="head">${s.type==='end'?'<span></span>':'<img src="logo-full.svg" alt="ByOrbit">'}<div class="right">${right}</div></div>${inner(s,post)}<div class="foot">${foot}</div>`;
+    root.appendChild(el);
+  });
+}
+window.build=build;
+</script>
+</body>
+</html>
