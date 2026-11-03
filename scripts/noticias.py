@@ -31,7 +31,15 @@ FEEDS = {
     "Wired": "https://www.wired.com/feed/rss",
     "Engadget": "https://www.engadget.com/rss.xml",
     "MIT Technology Review": "https://www.technologyreview.com/feed/",
+    # Brasil
+    "Tecnoblog": "https://tecnoblog.net/feed/",
+    "NeoFeed": "https://neofeed.com.br/feed/",
+    "Startups": "https://startups.com.br/feed/",
+    "Brazil Journal": "https://braziljournal.com/feed/",
+    "TecMundo": "https://rss.tecmundo.com.br/feed",
+    "Olhar Digital": "https://olhardigital.com.br/feed/",
 }
+BRASIL = {"Tecnoblog", "NeoFeed", "Startups", "Brazil Journal", "TecMundo", "Olhar Digital"}
 
 REGRAS = """Você é o editor do "Tech News", a seção de notícias de tecnologia do Instagram da ByOrbit,
 uma software house brasileira. O público são donos de empresa e gestores brasileiros, não técnicos.
@@ -42,6 +50,12 @@ Regras obrigatórias:
 - Mantenha nomes próprios de empresas e produtos como no original.
 - Evite política partidária, eleições, guerra, violência, mortes e temas sensíveis. Prefira IA, big techs,
   startups, segurança digital, produtos, chips, negócios e regulação de tecnologia.
+- Notícias do Brasil são bem-vindas: empresas brasileiras de tecnologia e fintechs (Nubank, Mercado Livre, iFood,
+  Stone, PagBank, Inter, C6 e similares), startups brasileiras e regulação (Banco Central, Pix, Open Finance,
+  ANPD/LGPD, marco legal da IA, Anatel).
+- NUNCA cite nem escolha notícias sobre concorrentes da ByOrbit: software houses, fábricas de software, agências
+  e consultorias de desenvolvimento, empresas que vendem desenvolvimento de sistemas ou apps sob medida,
+  outsourcing de TI, ou que vendem automação e agentes de IA sob medida para outras empresas.
 - Tom direto e neutro, sem sensacionalismo e sem emoji.
 - image_query: 2 a 4 palavras em INGLÊS descrevendo objetos ou lugares genéricos que ilustrem o tema
   (ex.: "smartwatch wrist", "server room", "microchip closeup"). Nunca pessoas, rostos, logos ou marcas.
@@ -139,7 +153,7 @@ def claude(prompt, max_tokens=16000):
 
 
 def listing(items):
-    return "\n".join(f"[{i}] {it['source']} ({it['date']}): {it['title']} — {it['summary'][:220]}"
+    return "\n".join(f"[{i}] {'[BR] ' if it['source'] in BRASIL else ''}{it['source']} ({it['date']}): {it['title']} — {it['summary'][:220]}"
                      for i, it in enumerate(items))
 
 
@@ -319,7 +333,7 @@ def run_daily(dry):
         sys.exit("Poucas notícias novas nos feeds")
     ja = "\n".join(reg.get("titulos", [])[-40:]) or "(nenhum)"
     pick = claude("Escolha as 4 notícias mais relevantes e variadas para o público (assuntos diferentes, sem duas "
-                  "sobre o mesmo fato). NÃO escolha nenhum fato já publicado nos últimos dias, mesmo que venha de "
+                  "sobre o mesmo fato). Se houver uma notícia brasileira relevante (portais marcados com [BR]), inclua ao menos 1. NÃO escolha nenhum fato já publicado nos últimos dias, mesmo que venha de "
                   "outro portal:\n" + ja + "\n\nFormato: {\"escolhidas\":[índices]}\n\n" + listing(items[:80]), 8000)
     chosen = [items[i] for i in pick["escolhidas"][:4]]
     data, folders, fotos = produce(chosen, "daily", f"tech-news-{key}")
