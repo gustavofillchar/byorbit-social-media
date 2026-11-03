@@ -116,7 +116,7 @@ def article_text(url):
 
 
 # ---------- Claude ----------
-def claude(prompt, max_tokens=3000):
+def claude(prompt, max_tokens=16000):
     body = json.dumps({"model": MODEL, "max_tokens": max_tokens, "system": REGRAS,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
     for attempt in range(3):
@@ -318,7 +318,7 @@ def run_daily(dry):
     if len(items) < 4:
         sys.exit("Poucas notícias novas nos feeds")
     pick = claude("Escolha as 4 notícias mais relevantes e variadas para o público (assuntos diferentes, sem duas "
-                  "sobre o mesmo fato). Formato: {\"escolhidas\":[índices]}\n\n" + listing(items[:80]), 400)
+                  "sobre o mesmo fato). Formato: {\"escolhidas\":[índices]}\n\n" + listing(items[:80]), 8000)
     chosen = [items[i] for i in pick["escolhidas"][:4]]
     data, folders, fotos = produce(chosen, "daily", f"tech-news-{key}")
     jpgs = to_jpegs(folders[0])
@@ -351,7 +351,7 @@ def run_breaking(dry):
                "afeta milhões, mudança regulatória grande). Ele PRECISA aparecer em pelo menos 2 portais diferentes da "
                "lista. Na dúvida, responda que não. Não repita assuntos já publicados:\n" + (recentes or "(nenhum)") +
                "\n\nFormato: {\"breaking\": true|false, \"indices\": [índices das matérias sobre o fato, de portais "
-               "diferentes], \"motivo\": \"...\"}\n\n" + listing(items[:80]), 500)
+               "diferentes], \"motivo\": \"...\"}\n\n" + listing(items[:80]), 8000)
     log(f"Avaliação: {d}")
     idx = d.get("indices") or []
     if not d.get("breaking") or len({items[i]["source"] for i in idx if i < len(items)}) < 2:
