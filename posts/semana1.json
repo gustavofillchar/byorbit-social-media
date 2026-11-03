@@ -1,14 +1,14 @@
 [
  {
   "slug": "2026-10-28-orcamento-5-perguntas",
-  "date": "2026-10-28",
+  "date": "2026-10-27",
   "slides": [],
   "caption": "Duas propostas com o mesmo valor podem esconder projetos completamente diferentes. A diferença está nas respostas.\n\nAntes de aprovar um orçamento de software, faça estas 5 perguntas ao fornecedor:\n\n1. O código e o servidor ficam no nome da minha empresa?\n2. Quem, exatamente, vai trabalhar no projeto?\n3. Como vou acompanhar o andamento?\n4. O escopo está escrito ou só combinado?\n5. Quem cuida do sistema depois que ele vai ao ar?\n\nSe alguma resposta vier vaga, vale perguntar de novo antes de assinar.\n\nSalve este post para a próxima proposta. E conta aqui: qual dessas perguntas você já deixou de fazer e se arrependeu?\n\nQuer tirar um projeto do papel? Inicie seu briefing pelo link na bio. A ByOrbit responde em até 24h. 🚀\n\n#desenvolvimentodesoftware #softwaresobmedida #gestaodeprojetos #empreendedorismo #mvp",
   "alt": "Slide de fundo escuro com o logo da ByOrbit e o título '5 perguntas antes de aprovar um orçamento de software', com '5 perguntas' em azul e uma órbita fina no canto superior direito."
  },
  {
   "slug": "2026-10-29-vibecoding",
-  "date": "2026-10-29",
+  "date": "2026-10-28",
   "slides": [
    {
     "type": "cover",
@@ -71,7 +71,7 @@
  },
  {
   "slug": "2026-10-30-mars-climate-orbiter",
-  "date": "2026-10-30",
+  "date": "2026-10-29",
   "slides": [
    {
     "type": "cover",
@@ -120,7 +120,7 @@
  },
  {
   "slug": "2026-10-31-4-fases",
-  "date": "2026-10-31",
+  "date": "2026-10-30",
   "slides": [
    {
     "type": "cover",
@@ -177,7 +177,7 @@
  },
  {
   "slug": "2026-11-01-primeiro-bug",
-  "date": "2026-11-01",
+  "date": "2026-10-31",
   "slides": [
    {
     "type": "cover",
@@ -226,7 +226,7 @@
  },
  {
   "slug": "2026-11-02-mvp-inchado",
-  "date": "2026-11-02",
+  "date": "2026-11-01",
   "slides": [
    {
     "type": "cover",
@@ -283,7 +283,7 @@
  },
  {
   "slug": "2026-11-03-quando-nao-usar-ia",
-  "date": "2026-11-03",
+  "date": "2026-11-02",
   "slides": [
    {
     "type": "cover",

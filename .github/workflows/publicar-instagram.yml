@@ -1,0 +1,67 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    # 14:50 UTC = 11:50 em Brasília; o GitHub costuma atrasar alguns minutos, o post sai perto do meio-dia
+    - cron: "50 14 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Data do post (AAAA-MM-DD). Vazio = hoje"
+        required: false
+        default: ""
+      dry_run:
+        description: "Só testar (monta o carrossel, mas não publica)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+env:
+  START_DATE: "2026-11-21"   # até 20/11 quem publica é o Metricool
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pillow
+
+      - name: Gerar JPEGs do post do dia
+        run: python scripts/ig_publish.py prepare ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+
+      - name: Subir JPEGs (a API baixa as imagens por URL pública)
+        run: |
+          git config user.name "ByOrbit"
+          git config user.email "guslimadev@gmail.com"
+          git add posts
+          if ! git diff --cached --quiet; then
+            git commit -m "JPEGs para publicação via API"
+            git push
+            sleep 30
+          fi
+
+      - name: Publicar
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python scripts/ig_publish.py publish ${{ inputs.date && format('--date {0}', inputs.date) || '' }} ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Registrar publicação
+        run: |
+          git add posts/publicados.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Registro de publicação"
+            git pull --rebase -q
+            git push
+          fi
