@@ -1,0 +1,87 @@
+name: Tech News
+
+on:
+  schedule:
+    - cron: "50 11 * * *"        # 08:50 em Brasília: carrossel Tech News do dia
+    - cron: "20 11-23/2 * * *"   # breaking: a cada 2h, das 08h20 às 20h20 em Brasília
+    - cron: "20 1 * * *"         # breaking: 22h20 em Brasília
+  push:
+    paths: ["noticias/gatilho.json"]   # rodar na hora: {"mode": "daily"|"breaking", "dry_run": true|false}
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily ou breaking"
+        default: "daily"
+      dry_run:
+        description: "Só testar (gera as artes, não publica)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tech-news
+  cancel-in-progress: false
+
+jobs:
+  noticias:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependências
+        run: |
+          pip install pillow playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Fontes Geist
+        run: |
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/vercel/geist-font /tmp/gf
+          cd /tmp/gf && git sparse-checkout set --no-cone '/fonts/Geist/webfonts/*' '/fonts/GeistMono/webfonts/*'
+          mkdir -p "$GITHUB_WORKSPACE/kit/fonts"
+          for f in Geist-Regular Geist-Medium Geist-SemiBold; do cp fonts/Geist/webfonts/$f.woff2 "$GITHUB_WORKSPACE/kit/fonts/"; done
+          cp fonts/GeistMono/webfonts/GeistMono-Regular.woff2 "$GITHUB_WORKSPACE/kit/fonts/"
+
+      - name: Decidir o que rodar
+        id: cfg
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            MODE=$(python -c "import json;print(json.load(open('noticias/gatilho.json'))['mode'])")
+            DRY=$(python -c "import json;print('--dry-run' if json.load(open('noticias/gatilho.json')).get('dry_run',True) else '')")
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ inputs.mode }}"; DRY="${{ inputs.dry_run && '--dry-run' || '' }}"
+          elif [ "${{ github.event.schedule }}" = "50 11 * * *" ]; then
+            MODE=daily; DRY=""
+          else
+            MODE=breaking; DRY=""
+          fi
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+          echo "dry=$DRY" >> $GITHUB_OUTPUT
+
+      - name: Rodar o robô
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          git config user.name "ByOrbit"
+          git config user.email "guslimadev@gmail.com"
+          mkdir -p noticias/logs
+          set -o pipefail
+          python scripts/noticias.py ${{ steps.cfg.outputs.mode }} ${{ steps.cfg.outputs.dry }} 2>&1 | tee noticias/logs/ultimo-${{ steps.cfg.outputs.mode }}.txt
+
+      - name: Salvar o log da execução
+        if: always()
+        run: |
+          git add noticias/logs || true
+          if ! git diff --cached --quiet; then
+            git commit -qm "Log Tech News (${{ steps.cfg.outputs.mode }})"
+            git pull --rebase -q && git push -q
+          fi
