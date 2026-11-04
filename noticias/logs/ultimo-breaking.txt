@@ -1,3 +1,3 @@
-[04:33:05] 15 notícias nas últimas 4h
-[04:33:08] Avaliação: {'breaking': False, 'nota': 2, 'indices': [], 'motivo': 'Nenhum fato de tecnologia com impacto amplo apareceu em pelo menos 2 portais. A maioria dos itens são páginas de cupons de desconto. A matéria sobre a EloElo é uma rodada de investimento de interesse de nicho e aparece em um só portal. As matérias sobre eleições americanas são de política e fora do escopo.'}
-[04:33:08] Sem breaking agora.
+[15:42:31] 65 notícias nas últimas 4h
+[15:42:34] Avaliação: {'breaking': False, 'nota': 6, 'indices': [], 'motivo': 'Nenhum fato atinge o nível de breaking. O mais forte é a Waymo confirmar o fim da parceria com a Uber em janeiro de 2028, mas aparece em só um portal, é relevante para um nicho e vai acontecer só daqui a mais de um ano. O Canva demitir cerca de um quinto do time (índices 43 e 64, dois portais) e a OpenAI encaminhar a compra da Pierre Computer são notícias relevantes, mas sem impacto amplo. As decisões da Anatel sobre roaming obrigatório e bloqueio de SMS usado em golpes são importantes para o Brasil, mas ficam abaixo de uma decisão regulatória grande sobre IA ou big techs e saíram em um só portal. O restante é produto, jogos, ofertas, opinião ou política (eleições americanas, que devem ser evitadas). Na dúvida, não.'}
+[15:42:34] Sem breaking agora.
