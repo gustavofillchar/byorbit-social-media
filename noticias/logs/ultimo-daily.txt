@@ -1,1 +1,4 @@
 [12:36:08] 206 notícias nas últimas 30h
+tech-news-2026-11-04 6 slides ok
+ 
+Erro da API do Instagram em 17841463015615993/media: {"error":{"message":"API access blocked.","type":"OAuthException","code":200,"fbtrace_id":"AYnV4nud3uv7xdsc-_R96If"}}
