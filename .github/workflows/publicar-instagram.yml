@@ -4,6 +4,8 @@ on:
   schedule:
     # 14:50 UTC = 11:50 em Brasília; o GitHub costuma atrasar alguns minutos, o post sai perto do meio-dia
     - cron: "50 14 * * *"
+  push:
+    paths: ["posts/gatilho.json"]   # disparo manual: publica o post do dia na hora
   workflow_dispatch:
     inputs:
       date:
