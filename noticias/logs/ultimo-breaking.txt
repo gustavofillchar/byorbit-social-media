@@ -1,0 +1,3 @@
+[04:33:05] 15 notícias nas últimas 4h
+[04:33:08] Avaliação: {'breaking': False, 'nota': 2, 'indices': [], 'motivo': 'Nenhum fato de tecnologia com impacto amplo apareceu em pelo menos 2 portais. A maioria dos itens são páginas de cupons de desconto. A matéria sobre a EloElo é uma rodada de investimento de interesse de nicho e aparece em um só portal. As matérias sobre eleições americanas são de política e fora do escopo.'}
+[04:33:08] Sem breaking agora.
