@@ -2,7 +2,7 @@ name: Tech News
 
 on:
   schedule:
-    - cron: "50 11 * * *"        # 08:50 em Brasília: carrossel Tech News do dia
+    - cron: "45 10 * * *"        # 07:45 em Brasília: com o atraso do GitHub e ~3 min de execução, o Tech News sai perto das 8h
     - cron: "20 11-23/2 * * *"   # breaking: a cada 2h, das 08h20 às 20h20 em Brasília
     - cron: "20 1 * * *"         # breaking: 22h20 em Brasília
   push:
@@ -56,7 +56,7 @@ jobs:
             DRY=$(python -c "import json;print('--dry-run' if json.load(open('noticias/gatilho.json')).get('dry_run',True) else '')")
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MODE="${{ inputs.mode }}"; DRY="${{ inputs.dry_run && '--dry-run' || '' }}"
-          elif [ "${{ github.event.schedule }}" = "50 11 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "45 10 * * *" ]; then
             MODE=daily; DRY=""
           else
             MODE=breaking; DRY=""
