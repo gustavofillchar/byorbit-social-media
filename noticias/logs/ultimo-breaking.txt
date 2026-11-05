@@ -1,3 +1,3 @@
-[04:58:42] 14 notícias nas últimas 4h
-[04:58:44] Avaliação: {'breaking': False, 'nota': 2, 'indices': [], 'motivo': 'Nenhum fato de impacto amplo na lista. As matérias são review de jogo, uma lei do Reino Unido sobre conteúdo adulto (nicho e tema sensível) e vários posts de cupons de desconto. Nada aparece em dois portais diferentes e nada se encaixa nos critérios de breaking.'}
-[04:58:44] Sem breaking agora.
+[15:51:28] 69 notícias nas últimas 4h
+[15:51:31] Avaliação: {'breaking': False, 'nota': 6, 'indices': [], 'motivo': 'Nenhum fato atinge o patamar de breaking. O mais forte é o aviso do governo dos EUA sobre ataques em massa a freezers industriais (nota 6), mas aparece em apenas um portal (TechCrunch) e não tem impacto claro para o Brasil. O vazamento de dados do FGC aparece só no Tecnoblog e é de alcance limitado. A compra da Tigris Data pela Dropbox (US$ 350 milhões) e a da Conductor pela Meta são aquisições pequenas. Zipline e Claude Personal Finance são rodadas e atualizações de produto. O GPT-6 Cyber é um modelo de nicho. O caso das TV boxes com vírus já foi publicado, e o restante é nicho, oferta ou opinião.'}
+[15:51:31] Sem breaking agora.
