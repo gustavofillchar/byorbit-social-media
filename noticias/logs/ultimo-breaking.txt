@@ -1,3 +1,3 @@
-[04:58:11] 2 notícias nas últimas 4h
-[04:58:14] Avaliação: {'breaking': False, 'nota': 3, 'indices': [], 'motivo': 'Nenhum fato atinge o nível de breaking. A notícia da Palo Alto Networks e da Clutch trata de negociação em andamento, sem fechamento, de valor relativamente pequeno e baseada em fonte anônima. A notícia sobre governos locais que abandonam as câmeras da Flock é de nicho e não tem impacto amplo. Além disso, as duas matérias vêm do mesmo portal, o TechCrunch, e não há confirmação em um segundo portal.'}
-[04:58:14] Sem breaking agora.
+[15:07:07] 59 notícias nas últimas 4h
+[15:07:12] Avaliação: {'breaking': False, 'nota': 6, 'indices': [2, 20], 'motivo': 'O fato mais forte que aparece em dois portais é a conclusão da compra da Roku pela Fox por US$ 22 bilhões (TechCrunch e Engadget). Porém, a aquisição já era conhecida e só foi concluída. O valor fica abaixo do patamar de dezenas de bilhões e o impacto para empresários brasileiros é limitado. A queda de 5,52% da Nasdaq aparece só no Tecnoblog, sem confirmação em um segundo portal, então não pode ser breaking. O fim do Cybertruck é notícia de produto, e os temas ligados às eleições americanas são políticos. Os demais itens são ofertas, reviews e assuntos de nicho.'}
+[15:07:12] Sem breaking agora.
