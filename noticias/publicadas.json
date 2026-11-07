@@ -3,7 +3,8 @@
   "2026-11-03": "https://www.instagram.com/p/DfTGApuGt6x/",
   "2026-11-04": "https://www.instagram.com/p/DfUz6mpDVBu/",
   "2026-11-05": "https://www.instagram.com/p/DfW8KyaF-R9/",
-  "2026-11-06": "https://www.instagram.com/p/DfaAigeE1go/"
+  "2026-11-06": "https://www.instagram.com/p/DfaAigeE1go/",
+  "2026-11-07": "https://www.instagram.com/p/Dfcc19_l8NP/"
  },
  "breaking": [],
  "links": [
@@ -22,7 +23,11 @@
   "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
   "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
   "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
-  "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect"
+  "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
+  "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+  "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+  "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+  "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
  ],
  "titulos": [
   "CrowdStrike compra Fiddler AI e Dreadnode",
@@ -40,7 +45,11 @@
   "Gasto com IA estagna, mas uso cresce",
   "Alexa agora aceita pedidos por mensagem",
   "Falha no Linux Alpine libera acesso sem senha",
-  "UE cobra mudança no algoritmo do TikTok"
+  "UE cobra mudança no algoritmo do TikTok",
+  "OpenAI vale US$ 1,25 trilhão após nova rodada",
+  "Chainalysis tem dados de usuários expostos",
+  "Empresas de IA querem comprar dados de trabalho",
+  "Anthropic acelera pesquisa usando a própria IA"
  ],
  "_fotos": [
   "KrPulSdUetk",
@@ -58,6 +67,10 @@
   "N__BnvQ_w18",
   "LvySG1hvuzI",
   "M5tzZtFCOfs",
-  "q8U1YgBaRQk"
+  "q8U1YgBaRQk",
+  "uwF-VxkbEls",
+  "mT7lXZPjk7U",
+  "ecHGTPfjNfA",
+  "s0XabTAKvak"
  ]
 }
