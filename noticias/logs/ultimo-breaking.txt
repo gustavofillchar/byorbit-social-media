@@ -1,3 +1,3 @@
-[13:55:04] 40 notícias nas últimas 4h
-[13:55:07] Avaliação: {'breaking': False, 'nota': 4, 'indices': [], 'motivo': 'Nenhum fato com impacto amplo apareceu em pelo menos 2 portais diferentes. O candidato mais forte é a investigação sobre as vendas de chips H200 da Nvidia para uma empresa fantasma na China (índice 3), mas é apuração de um único portal, de interesse mais restrito e sem decisão regulatória nova. A participação da Alphabet na Qualcomm (28) é um registro financeiro de um portal só. O adiamento das regras da Meta para coleta de conteúdo jornalístico (35) é relevante, mas está só no Olhar Digital e é um adiamento, não uma decisão. A onda de ataques a geladeiras e dispositivos IoT (7) é análise em um único portal. O restante é review, tutorial, oferta, jogos ou opinião.'}
-[13:55:07] Sem breaking agora.
+[17:58:51] 27 notícias nas últimas 4h
+[17:58:54] Avaliação: {'breaking': False, 'nota': 4, 'indices': [], 'motivo': 'Nenhum fato com impacto amplo confirmado por 2 ou mais portais. O roubo de US$ 6,3 bilhões na Binance já foi coberto em pauta anterior, e a saída do CFO é um desdobramento que aparece em apenas um portal. A venda de chips da Nvidia para uma empresa de fachada na China aparece em uma única fonte. O restante é review, tutorial, produto de nicho ou política, sem caráter de breaking.'}
+[17:58:54] Sem breaking agora.
