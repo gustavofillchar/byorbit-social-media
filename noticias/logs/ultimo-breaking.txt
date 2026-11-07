@@ -1,3 +1,3 @@
-[15:07:07] 59 notícias nas últimas 4h
-[15:07:12] Avaliação: {'breaking': False, 'nota': 6, 'indices': [2, 20], 'motivo': 'O fato mais forte que aparece em dois portais é a conclusão da compra da Roku pela Fox por US$ 22 bilhões (TechCrunch e Engadget). Porém, a aquisição já era conhecida e só foi concluída. O valor fica abaixo do patamar de dezenas de bilhões e o impacto para empresários brasileiros é limitado. A queda de 5,52% da Nasdaq aparece só no Tecnoblog, sem confirmação em um segundo portal, então não pode ser breaking. O fim do Cybertruck é notícia de produto, e os temas ligados às eleições americanas são políticos. Os demais itens são ofertas, reviews e assuntos de nicho.'}
-[15:07:12] Sem breaking agora.
+[04:15:27] 2 notícias nas últimas 4h
+[04:15:30] Avaliação: {'breaking': False, 'nota': 3, 'indices': [], 'motivo': 'As duas matérias vêm do mesmo portal (TechCrunch), então nenhum fato aparece em dois portais diferentes. O encerramento do programa Sequoia Scouts interessa principalmente ao nicho de venture capital. O texto sobre as eleições de meio de mandato e as big techs é análise e envolve política, o que as regras mandam evitar. Nenhum dos dois é um fato novo de impacto amplo, então não há breaking.'}
+[04:15:30] Sem breaking agora.
