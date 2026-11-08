@@ -1,2 +1,3 @@
-[04:27:05] 0 notícias nas últimas 4h
-[04:27:05] Nenhuma notícia nova.
+[14:08:21] 31 notícias nas últimas 4h
+[14:08:23] Avaliação: {'breaking': False, 'nota': 3, 'indices': [], 'motivo': 'Nenhum fato recente com impacto amplo aparece em pelo menos 2 portais. A maioria das matérias é de guias, reviews, ofertas e análises. O assunto mais relevante, a Anthropic assumindo contratos de geradores a gás para data centers, aparece em apenas um portal (Olhar Digital) e é de interesse mais restrito. O caso de golpe com deepfake que desviou mais de R$ 700 milhões também aparece em uma única fonte. Os demais itens são de nicho, rumor (código em beta do iOS 27.3) ou fora do escopo.'}
+[14:08:23] Sem breaking agora.
