@@ -1,3 +1,2 @@
-[21:47:23] 19 notícias nas últimas 4h
-[21:47:26] Avaliação: {'breaking': False, 'nota': 3, 'indices': [], 'motivo': 'Nenhum fato de impacto amplo aparece em pelo menos dois portais. A matéria mais relevante é o memo de inteligência sobre espionagem ligada à Nvidia (TechCrunch), baseado em documento reportado e sem confirmação em outro portal. O restante é conteúdo de serviço, guias e reviews (Engadget), além de uma pré-venda de óculos inteligentes da Samsung, que é lançamento de produto e não chega ao nível de breaking.'}
-[21:47:26] Sem breaking agora.
+[04:27:05] 0 notícias nas últimas 4h
+[04:27:05] Nenhuma notícia nova.
