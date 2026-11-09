@@ -39,8 +39,8 @@
       "text": "Enviado na véspera, sozinho."
      }
     ],
-    "cta": "Atendente IA no WhatsApp da sua clínica.",
-    "button": "Teste agora",
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente",
     "imagePos": "50% 75%"
    }
   ]
@@ -85,8 +85,8 @@
       "text": "Enviado na véspera, sozinho."
      }
     ],
-    "cta": "Atendente IA no WhatsApp da sua clínica.",
-    "button": "Teste agora"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  },
@@ -137,8 +137,8 @@
       "time": "23:15"
      }
     ],
-    "cta": "Atendente IA no WhatsApp da sua clínica.",
-    "button": "Teste agora"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  },
@@ -189,8 +189,8 @@
       "time": "23:15"
      }
     ],
-    "cta": "Atendente IA no WhatsApp da sua clínica.",
-    "button": "Teste agora"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  },
@@ -274,8 +274,8 @@
       }
      ]
     },
-    "cta": "Atendente IA no WhatsApp da sua clínica.",
-    "button": "Teste agora"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  },
@@ -359,54 +359,54 @@
       }
      ]
     },
-    "cta": "Atendente IA no WhatsApp da sua clínica.",
-    "button": "Teste agora"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  },
  {
-  "slug": "clinicas-oferta-feed",
+  "slug": "clinicas-beneficios-feed",
   "format": "feed",
   "label": "Para clínicas",
   "slides": [
    {
     "type": "statement",
-    "title": "Atendente IA no WhatsApp da sua <span class=\"blue\">clínica.</span>",
+    "title": "Nenhum paciente <span class=\"blue\">sem resposta.</span>",
     "checks": [
-     "Responde pacientes 24h",
-     "Agenda e remarca consultas",
-     "API oficial do WhatsApp",
+     "Responde pacientes a qualquer hora",
+     "Agenda, confirma e remarca consultas",
+     "Lembra o paciente na véspera",
      "Casos sensíveis vão para a recepção"
     ],
     "price": {
-     "label": "Implantação",
-     "value": "a partir de R$5 mil"
+     "label": "Sob medida",
+     "value": "Feito para a rotina da sua clínica"
     },
-    "cta": "Teste a demo agora, direto no WhatsApp.",
-    "button": "Testar demo"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  },
  {
-  "slug": "clinicas-oferta-story",
+  "slug": "clinicas-beneficios-story",
   "format": "story",
   "label": "Para clínicas",
   "slides": [
    {
     "type": "statement",
-    "title": "Atendente IA no WhatsApp da sua <span class=\"blue\">clínica.</span>",
+    "title": "Nenhum paciente <span class=\"blue\">sem resposta.</span>",
     "checks": [
-     "Responde pacientes 24h",
-     "Agenda e remarca consultas",
-     "API oficial do WhatsApp",
+     "Responde pacientes a qualquer hora",
+     "Agenda, confirma e remarca consultas",
+     "Lembra o paciente na véspera",
      "Casos sensíveis vão para a recepção"
     ],
     "price": {
-     "label": "Implantação",
-     "value": "a partir de R$5 mil"
+     "label": "Sob medida",
+     "value": "Feito para a rotina da sua clínica"
     },
-    "cta": "Teste a demo agora, direto no WhatsApp.",
-    "button": "Testar demo"
+    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "button": "Fale com a gente"
    }
   ]
  }
