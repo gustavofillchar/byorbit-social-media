@@ -1,0 +1,54 @@
+name: Fotos para anúncios (Unsplash, sob demanda)
+
+# Não publica nada. Só baixa fotos candidatas para os criativos de anúncio.
+# Uso: edite anuncios/fotos.json  {"nome": {"query": "...", "orientation": "portrait", "n": 4}}
+# e dê push. As fotos caem em anuncios/img/<nome>-1.jpg ... e os créditos em anuncios/img/creditos.json.
+on:
+  push:
+    paths: ["anuncios/fotos.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Buscar e baixar no Unsplash
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: |
+          mkdir -p anuncios/img
+          python3 - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          key = os.environ["UNSPLASH_ACCESS_KEY"]
+          H = {"Authorization": f"Client-ID {key}", "Accept-Version": "v1", "User-Agent": "ByOrbit ads bot"}
+          def get(url, headers=H):
+              return urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60).read()
+          pedidos = json.load(open("anuncios/fotos.json"))
+          cred_path = "anuncios/img/creditos.json"
+          creditos = json.load(open(cred_path)) if os.path.exists(cred_path) else {}
+          for nome, p in pedidos.items():
+              q = urllib.parse.urlencode({"query": p["query"], "orientation": p.get("orientation", "portrait"),
+                                          "content_filter": "high", "per_page": p.get("n", 4)})
+              res = json.loads(get(f"https://api.unsplash.com/search/photos?{q}"))["results"]
+              print(nome, len(res), "resultados")
+              for i, ph in enumerate(res, 1):
+                  try:  # exigência da API do Unsplash: registrar o download
+                      get(ph["links"]["download_location"])
+                  except Exception:
+                      pass
+                  url = ph["urls"]["raw"] + "&w=1600&q=85&fm=jpg"
+                  open(f"anuncios/img/{nome}-{i}.jpg", "wb").write(get(url, {"User-Agent": "ByOrbit ads bot"}))
+                  creditos[f"{nome}-{i}"] = {"id": ph["id"], "autor": ph["user"]["name"],
+                                             "link": ph["links"]["html"], "descricao": ph.get("alt_description")}
+          json.dump(creditos, open(cred_path, "w"), indent=1, ensure_ascii=False)
+          PY
+      - name: Salvar no repositório
+        run: |
+          git config user.name "ByOrbit"
+          git config user.email "guslimadev@gmail.com"
+          git add anuncios/img
+          git diff --cached --quiet || (git commit -m "Fotos para anúncios" && git pull --rebase -q && git push)
