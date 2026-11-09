@@ -1,0 +1,413 @@
+[
+ {
+  "slug": "clinicas-cena-feed",
+  "format": "feed",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/recepcao-1.jpg",
+    "title": "Mensagem às 23h. Paciente <span class=\"blue\">agendado</span> às 23h.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "23:14",
+      "text": "Oi! Tem horário amanhã pra limpeza?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Atendente IA",
+      "tag": "Respondeu na hora",
+      "text": "Sugeriu 3 horários e confirmou <strong>quinta, 10:30</strong> com o paciente."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Consulta agendada",
+      "time": "agora",
+      "text": "Qui, 10:30 · Dra. Ana"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Lembrete",
+      "text": "Enviado na véspera, sozinho."
+     }
+    ],
+    "cta": "Atendente IA no WhatsApp da sua clínica.",
+    "button": "Teste agora",
+    "imagePos": "50% 75%"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-cena-story",
+  "format": "story",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/recepcao-1.jpg",
+    "title": "Mensagem às 23h. Paciente <span class=\"blue\">agendado</span> às 23h.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "23:14",
+      "text": "Oi! Tem horário amanhã pra limpeza?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Atendente IA",
+      "tag": "Respondeu na hora",
+      "text": "Sugeriu 3 horários e confirmou <strong>quinta, 10:30</strong> com o paciente."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Consulta agendada",
+      "time": "agora",
+      "text": "Qui, 10:30 · Dra. Ana"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Lembrete",
+      "text": "Enviado na véspera, sozinho."
+     }
+    ],
+    "cta": "Atendente IA no WhatsApp da sua clínica.",
+    "button": "Teste agora"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-23h-feed",
+  "format": "feed",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Sua clínica respondeu isso <span class=\"blue\">às 23h?</span>",
+    "clock": "23:14",
+    "contact": {
+     "name": "Clínica Sorriso",
+     "initials": "CS",
+     "status": "online",
+     "tag": "Atendente IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! Vocês têm horário amanhã pra limpeza?",
+      "time": "23:14"
+     },
+     {
+      "from": "out",
+      "text": "Oi! Temos sim 😊 Amanhã (quinta):",
+      "chips": [
+       "09:00",
+       "10:30",
+       "16:15"
+      ],
+      "after": "Qual fica melhor?",
+      "time": "23:14"
+     },
+     {
+      "from": "in",
+      "text": "10:30",
+      "time": "23:15"
+     },
+     {
+      "from": "out",
+      "text": "Fechado! Te mando um lembrete na véspera.",
+      "card": {
+       "title": "Consulta agendada",
+       "sub": "Qui, 10:30 · Dra. Ana"
+      },
+      "time": "23:15"
+     }
+    ],
+    "cta": "Atendente IA no WhatsApp da sua clínica.",
+    "button": "Teste agora"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-23h-story",
+  "format": "story",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Sua clínica respondeu isso <span class=\"blue\">às 23h?</span>",
+    "clock": "23:14",
+    "contact": {
+     "name": "Clínica Sorriso",
+     "initials": "CS",
+     "status": "online",
+     "tag": "Atendente IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! Vocês têm horário amanhã pra limpeza?",
+      "time": "23:14"
+     },
+     {
+      "from": "out",
+      "text": "Oi! Temos sim 😊 Amanhã (quinta):",
+      "chips": [
+       "09:00",
+       "10:30",
+       "16:15"
+      ],
+      "after": "Qual fica melhor?",
+      "time": "23:14"
+     },
+     {
+      "from": "in",
+      "text": "10:30",
+      "time": "23:15"
+     },
+     {
+      "from": "out",
+      "text": "Fechado! Te mando um lembrete na véspera.",
+      "card": {
+       "title": "Consulta agendada",
+       "sub": "Qui, 10:30 · Dra. Ana"
+      },
+      "time": "23:15"
+     }
+    ],
+    "cta": "Atendente IA no WhatsApp da sua clínica.",
+    "button": "Teste agora"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-antes-depois-feed",
+  "format": "feed",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Sua recepção não precisa responder tudo <span class=\"blue\">sozinha.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Mariana S.",
+       "msg": "Vocês abrem sábado?",
+       "time": "21:47",
+       "badge": "2"
+      },
+      {
+       "name": "João P.",
+       "msg": "Quanto custa o clareamento?",
+       "time": "22:03",
+       "badge": "3"
+      },
+      {
+       "name": "Carla M.",
+       "msg": "Tem horário amanhã?",
+       "time": "22:31",
+       "badge": "1"
+      },
+      {
+       "name": "Rafael T.",
+       "msg": "Preciso remarcar minha consulta",
+       "time": "23:10",
+       "badge": "2"
+      },
+      {
+       "name": "Bruna L.",
+       "msg": "Aceitam convênio?",
+       "time": "23:42",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Com IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Mariana S.",
+       "msg": "Abrimos sábado, das 8h às 12h.",
+       "time": "21:47",
+       "ok": "Respondido"
+      },
+      {
+       "name": "João P.",
+       "msg": "Avaliação marcada para sexta.",
+       "time": "22:03",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Carla M.",
+       "msg": "Qui, 10:30 confirmado.",
+       "time": "22:31",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Rafael T.",
+       "msg": "Remarcado para terça, 15h.",
+       "time": "23:10",
+       "ok": "Remarcado"
+      },
+      {
+       "name": "Bruna L.",
+       "msg": "Passado para a recepção.",
+       "time": "23:42",
+       "ok": "Recepção"
+      }
+     ]
+    },
+    "cta": "Atendente IA no WhatsApp da sua clínica.",
+    "button": "Teste agora"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-antes-depois-story",
+  "format": "story",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Sua recepção não precisa responder tudo <span class=\"blue\">sozinha.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Mariana S.",
+       "msg": "Vocês abrem sábado?",
+       "time": "21:47",
+       "badge": "2"
+      },
+      {
+       "name": "João P.",
+       "msg": "Quanto custa o clareamento?",
+       "time": "22:03",
+       "badge": "3"
+      },
+      {
+       "name": "Carla M.",
+       "msg": "Tem horário amanhã?",
+       "time": "22:31",
+       "badge": "1"
+      },
+      {
+       "name": "Rafael T.",
+       "msg": "Preciso remarcar minha consulta",
+       "time": "23:10",
+       "badge": "2"
+      },
+      {
+       "name": "Bruna L.",
+       "msg": "Aceitam convênio?",
+       "time": "23:42",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Com IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Mariana S.",
+       "msg": "Abrimos sábado, das 8h às 12h.",
+       "time": "21:47",
+       "ok": "Respondido"
+      },
+      {
+       "name": "João P.",
+       "msg": "Avaliação marcada para sexta.",
+       "time": "22:03",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Carla M.",
+       "msg": "Qui, 10:30 confirmado.",
+       "time": "22:31",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Rafael T.",
+       "msg": "Remarcado para terça, 15h.",
+       "time": "23:10",
+       "ok": "Remarcado"
+      },
+      {
+       "name": "Bruna L.",
+       "msg": "Passado para a recepção.",
+       "time": "23:42",
+       "ok": "Recepção"
+      }
+     ]
+    },
+    "cta": "Atendente IA no WhatsApp da sua clínica.",
+    "button": "Teste agora"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-oferta-feed",
+  "format": "feed",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Atendente IA no WhatsApp da sua <span class=\"blue\">clínica.</span>",
+    "checks": [
+     "Responde pacientes 24h",
+     "Agenda e remarca consultas",
+     "API oficial do WhatsApp",
+     "Casos sensíveis vão para a recepção"
+    ],
+    "price": {
+     "label": "Implantação",
+     "value": "a partir de R$5 mil"
+    },
+    "cta": "Teste a demo agora, direto no WhatsApp.",
+    "button": "Testar demo"
+   }
+  ]
+ },
+ {
+  "slug": "clinicas-oferta-story",
+  "format": "story",
+  "label": "Para clínicas",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Atendente IA no WhatsApp da sua <span class=\"blue\">clínica.</span>",
+    "checks": [
+     "Responde pacientes 24h",
+     "Agenda e remarca consultas",
+     "API oficial do WhatsApp",
+     "Casos sensíveis vão para a recepção"
+    ],
+    "price": {
+     "label": "Implantação",
+     "value": "a partir de R$5 mil"
+    },
+    "cta": "Teste a demo agora, direto no WhatsApp.",
+    "button": "Testar demo"
+   }
+  ]
+ }
+]
