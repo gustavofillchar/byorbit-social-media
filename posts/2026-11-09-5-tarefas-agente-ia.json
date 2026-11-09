@@ -1,0 +1,19 @@
+[
+{
+ "slug": "2026-11-09-5-tarefas-agente-ia",
+ "date": "2026-11-09",
+ "slides": [
+  {"type":"cover","title":"5 tarefas que um <span class=\"blue\">agente de&nbsp;IA</span> já pode fazer na sua empresa","sub":"Trabalho repetitivo que hoje toma horas da equipe."},
+  {"type":"text","title":"Não é sobre substituir pessoas.","body":"É tirar da equipe o trabalho repetitivo, que segue sempre o mesmo roteiro, para ela focar no que exige decisão e relacionamento."},
+  {"type":"item","num":"01","title":"Triagem de leads","body":"O agente lê o formulário ou a mensagem, confere os dados, classifica o interesse e entrega o lead pronto para o vendedor certo."},
+  {"type":"item","num":"02","title":"Primeiro atendimento","body":"Responde dúvidas frequentes a qualquer hora, consulta pedidos no sistema e passa para uma pessoa quando o caso pede."},
+  {"type":"item","num":"03","title":"Relatórios do dia a dia","body":"Junta números de vendas, estoque e atendimento e envia o resumo pronto para o gestor, sem ninguém montar planilha."},
+  {"type":"item","num":"04","title":"Conferência de documentos","body":"Lê notas, contratos e comprovantes, compara com o que está no sistema e aponta o que não bate."},
+  {"type":"item","num":"05","title":"Agendamentos","body":"Encontra horários livres, marca reuniões e visitas, envia confirmações e lembra o cliente na véspera."},
+  {"type":"turn","title":"A ByOrbit desenvolve o <span class=\"blue\">agente</span> para o seu processo.","sub":"Conectado aos sistemas que você já usa, com:","checks":["Regras claras do que ele pode fazer","Aprovação humana onde importa","Histórico de cada ação"]},
+  {"type":"cta","title":"Qual dessas tarefas toma mais tempo da sua equipe?","body":"Conte como ela é feita hoje.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Agente de IA já não é coisa de empresa grande. Muitas tarefas do dia a dia seguem sempre o mesmo roteiro, e é aí que ele rende mais.\n\n5 tarefas que um agente de IA já pode fazer na sua empresa:\n\n1. Triagem de leads\n2. Primeiro atendimento\n3. Relatórios do dia a dia\n4. Conferência de documentos\n5. Agendamentos\n\nA ideia não é substituir a equipe, e sim tirar dela o trabalho repetitivo para sobrar tempo para o que exige decisão e relacionamento.\n\nA ByOrbit desenvolve agentes de IA sob medida, conectados aos sistemas que a sua empresa já usa, com regras claras e aprovação humana nos pontos que importam.\n\nQual dessas tarefas mais toma tempo da sua equipe? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#agentesdeia #automacao #inteligenciaartificial #produtividade #softwaresobmedida",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título '5 tarefas que um agente de IA já pode fazer na sua empresa', com 'agente de IA' em azul e uma órbita fina no canto superior direito."
+}
+]
