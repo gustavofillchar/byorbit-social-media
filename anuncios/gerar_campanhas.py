@@ -186,9 +186,9 @@ SEG = {
 
  "restaurante": dict(
   label="Para restaurantes", foto="restaurante", cta="Agentes de IA sob medida para a operação do seu restaurante.",
-  cena=dict(title=f"Pedido no WhatsApp às 21h. {B('Na cozinha')} em segundos.",
+  cena=dict(title=f"Pedido às 21h? {B('Na cozinha na hora.')}",
     a=("Novo pedido", "21:12", "Quero 2 smash e uma coca, pra entrega"),
-    b="Montou o pedido, confirmou o endereço e <strong>enviou o link de pagamento</strong>.",
+    b="Confirmou o pedido e <strong>enviou o link de pagamento</strong>.",
     c=("Pedido na cozinha", "#482 · Entrega em ~40 min"), d=("Cliente avisado", "Status enviado a cada etapa.")),
   chat=dict(title=f"Pedido no WhatsApp {B('sem atendente travado.')}", contato=("Burger da Vila", "BV"), msgs=[
     {"from": "in", "text": "Boa noite! Quero 2 smash e 1 coca, entrega", "time": "21:12"},

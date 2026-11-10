@@ -6,8 +6,8 @@
   "slides": [
    {
     "type": "scene",
-    "image": "../anuncios/img/restaurante-1.jpg",
-    "title": "Pedido no WhatsApp às 21h. <span class=\"blue\">Na cozinha</span> em segundos.",
+    "image": "../anuncios/img/restaurante-2.jpg",
+    "title": "Pedido às 21h? <span class=\"blue\">Na cozinha na hora.</span>",
     "cards": [
      {
       "style": "glass",
@@ -22,7 +22,7 @@
       "icon": "ai",
       "title": "Agente de IA",
       "tag": "Respondeu na hora",
-      "text": "Montou o pedido, confirmou o endereço e <strong>enviou o link de pagamento</strong>."
+      "text": "Confirmou o pedido e <strong>enviou o link de pagamento</strong>."
      },
      {
       "style": "glass",
@@ -52,8 +52,8 @@
   "slides": [
    {
     "type": "scene",
-    "image": "../anuncios/img/restaurante-1.jpg",
-    "title": "Pedido no WhatsApp às 21h. <span class=\"blue\">Na cozinha</span> em segundos.",
+    "image": "../anuncios/img/restaurante-2.jpg",
+    "title": "Pedido às 21h? <span class=\"blue\">Na cozinha na hora.</span>",
     "cards": [
      {
       "style": "glass",
@@ -68,7 +68,7 @@
       "icon": "ai",
       "title": "Agente de IA",
       "tag": "Respondeu na hora",
-      "text": "Montou o pedido, confirmou o endereço e <strong>enviou o link de pagamento</strong>."
+      "text": "Confirmou o pedido e <strong>enviou o link de pagamento</strong>."
      },
      {
       "style": "glass",

@@ -1,9 +1,32 @@
 {
- "contabilidade": {"foto": "contabilidade-1"},
- "imobiliaria": {"foto": "imobiliaria-3"},
- "veterinaria": {"foto": "veterinaria-3"},
- "estetica": {"foto": "estetica-5"},
- "oficina": {"foto": "oficina-1"},
- "seguros": {"foto": "seguros-1"},
- "condominio": {"foto": "condominio-2"}
+ "contabilidade": {
+  "foto": "contabilidade-1"
+ },
+ "imobiliaria": {
+  "foto": "imobiliaria-3"
+ },
+ "veterinaria": {
+  "foto": "veterinaria-3"
+ },
+ "estetica": {
+  "foto": "estetica-5"
+ },
+ "oficina": {
+  "foto": "oficina-1"
+ },
+ "seguros": {
+  "foto": "seguros-1"
+ },
+ "condominio": {
+  "foto": "condominio-2"
+ },
+ "advocacia": {
+  "foto": "advocacia-1"
+ },
+ "escola": {
+  "foto": "escola-b-4"
+ },
+ "restaurante": {
+  "foto": "restaurante-2"
+ }
 }
