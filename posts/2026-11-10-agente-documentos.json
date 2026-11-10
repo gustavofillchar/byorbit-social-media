@@ -1,0 +1,18 @@
+[
+{
+ "slug": "2026-11-10-agente-documentos",
+ "date": "2026-11-10",
+ "slides": [
+  {"type":"cover","title":"Um agente de IA que <span class=\"blue\">conhece os documentos</span> da sua empresa","sub":"Manuais, contratos e processos respondendo na hora."},
+  {"type":"text","title":"A resposta existe. Ninguém acha.","body":"Está num PDF, numa pasta do Drive ou na cabeça de alguém. A equipe perde tempo procurando e o cliente espera."},
+  {"type":"item","num":"01","title":"Ele lê os documentos da empresa","body":"Manuais, políticas, contratos, tabelas de preço e procedimentos. Quando um documento muda, a resposta muda junto."},
+  {"type":"item","num":"02","title":"Responde citando a fonte","body":"Cada resposta mostra de qual documento veio. A equipe confere em segundos, sem confiar no escuro."},
+  {"type":"item","num":"03","title":"Respeita quem pode ver o quê","body":"O vendedor não vê o contrato do RH. Cada pessoa só recebe respostas dos documentos que tem permissão para acessar."},
+  {"type":"item","num":"04","title":"Diz quando não sabe","body":"Se a informação não está nos documentos, ele avisa e passa para uma pessoa. Não inventa resposta."},
+  {"type":"turn","title":"A ByOrbit cria o agente com os <span class=\"blue\">seus documentos</span>.","sub":"No canal que a equipe já usa, com:","checks":["Respostas com a fonte citada","Permissões por pessoa","Dados guardados com segurança"]},
+  {"type":"cta","title":"Quanto tempo sua equipe perde procurando informação?","body":"Conte onde estão os documentos hoje.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Toda empresa tem a resposta guardada em algum lugar: um manual, um contrato, uma planilha de preços. O difícil é achar na hora que precisa.\n\nUm agente de IA treinado com os documentos da sua empresa resolve isso:\n\n1. Lê manuais, contratos, tabelas e procedimentos\n2. Responde citando de qual documento veio a informação\n3. Respeita as permissões de cada pessoa\n4. Avisa quando não sabe, em vez de inventar\n\nFunciona para a equipe interna (\"qual é a política de troca?\") e também no atendimento ao cliente.\n\nA ByOrbit desenvolve esse agente sob medida, conectado aos documentos e ao canal que a sua equipe já usa, com os dados guardados com segurança.\n\nQue pergunta sua equipe responde mais vezes por semana? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#agentesdeia #inteligenciaartificial #gestaodoconhecimento #produtividade #softwaresobmedida",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Um agente de IA que conhece os documentos da sua empresa', com 'conhece os documentos' em azul e uma órbita fina no canto superior direito."
+}
+]
