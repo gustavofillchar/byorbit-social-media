@@ -1,12 +1,6 @@
 {
- "advocacia": {"query": "law office lawyer smartphone desk", "orientation": "portrait", "n": 5},
- "contabilidade": {"query": "accountant office desk smartphone", "orientation": "portrait", "n": 5},
- "imobiliaria": {"query": "real estate agent smartphone smiling", "orientation": "portrait", "n": 5},
- "veterinaria": {"query": "veterinary clinic reception", "orientation": "portrait", "n": 5},
- "estetica": {"query": "beauty salon receptionist smartphone", "orientation": "portrait", "n": 5},
- "escola": {"query": "school secretary office smiling", "orientation": "portrait", "n": 5},
- "oficina": {"query": "auto mechanic workshop smartphone", "orientation": "portrait", "n": 5},
- "seguros": {"query": "insurance broker office phone", "orientation": "portrait", "n": 5},
- "condominio": {"query": "building concierge front desk", "orientation": "portrait", "n": 5},
- "restaurante": {"query": "restaurant owner smartphone counter", "orientation": "portrait", "n": 5}
+ "advocacia": {"query": "lawyer office", "orientation": "portrait", "n": 5},
+ "escola": {"query": "school reception office", "orientation": "portrait", "n": 5},
+ "restaurante": {"query": "restaurant counter phone", "orientation": "portrait", "n": 5},
+ "oficina-b": {"query": "car mechanic garage", "orientation": "portrait", "n": 5}
 }
