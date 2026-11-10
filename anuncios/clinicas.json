@@ -20,7 +20,7 @@
      {
       "style": "solid",
       "icon": "ai",
-      "title": "Atendente IA",
+      "title": "Agente de IA",
       "tag": "Respondeu na hora",
       "text": "Sugeriu 3 horários e confirmou <strong>quinta, 10:30</strong> com o paciente."
      },
@@ -39,7 +39,7 @@
       "text": "Enviado na véspera, sozinho."
      }
     ],
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente",
     "imagePos": "50% 75%"
    }
@@ -66,7 +66,7 @@
      {
       "style": "solid",
       "icon": "ai",
-      "title": "Atendente IA",
+      "title": "Agente de IA",
       "tag": "Respondeu na hora",
       "text": "Sugeriu 3 horários e confirmou <strong>quinta, 10:30</strong> com o paciente."
      },
@@ -85,7 +85,7 @@
       "text": "Enviado na véspera, sozinho."
      }
     ],
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
@@ -103,7 +103,7 @@
      "name": "Clínica Sorriso",
      "initials": "CS",
      "status": "online",
-     "tag": "Atendente IA"
+     "tag": "Agente de IA"
     },
     "messages": [
      {
@@ -137,7 +137,7 @@
       "time": "23:15"
      }
     ],
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
@@ -155,7 +155,7 @@
      "name": "Clínica Sorriso",
      "initials": "CS",
      "status": "online",
-     "tag": "Atendente IA"
+     "tag": "Agente de IA"
     },
     "messages": [
      {
@@ -189,7 +189,7 @@
       "time": "23:15"
      }
     ],
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
@@ -239,7 +239,7 @@
      ]
     },
     "after": {
-     "label": "Com IA",
+     "label": "Agente de IA",
      "kpi": "Respondidas",
      "rows": [
       {
@@ -274,7 +274,7 @@
       }
      ]
     },
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
@@ -324,7 +324,7 @@
      ]
     },
     "after": {
-     "label": "Com IA",
+     "label": "Agente de IA",
      "kpi": "Respondidas",
      "rows": [
       {
@@ -359,53 +359,53 @@
       }
      ]
     },
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
  },
  {
-  "slug": "clinicas-beneficios-feed",
+  "slug": "clinicas-sob-medida-feed",
   "format": "feed",
   "label": "Para clínicas",
   "slides": [
    {
     "type": "statement",
-    "title": "Nenhum paciente <span class=\"blue\">sem resposta.</span>",
+    "title": "Cada clínica é única. Seu <span class=\"blue\">agente de IA</span> também.",
     "checks": [
-     "Responde pacientes a qualquer hora",
-     "Agenda, confirma e remarca consultas",
-     "Lembra o paciente na véspera",
+     "Desenhado a partir da sua rotina",
+     "Segue as regras da sua clínica",
+     "Integrado à agenda que você já usa",
      "Casos sensíveis vão para a recepção"
     ],
     "price": {
-     "label": "Sob medida",
-     "value": "Feito para a rotina da sua clínica"
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
     },
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
  },
  {
-  "slug": "clinicas-beneficios-story",
+  "slug": "clinicas-sob-medida-story",
   "format": "story",
   "label": "Para clínicas",
   "slides": [
    {
     "type": "statement",
-    "title": "Nenhum paciente <span class=\"blue\">sem resposta.</span>",
+    "title": "Cada clínica é única. Seu <span class=\"blue\">agente de IA</span> também.",
     "checks": [
-     "Responde pacientes a qualquer hora",
-     "Agenda, confirma e remarca consultas",
-     "Lembra o paciente na véspera",
+     "Desenhado a partir da sua rotina",
+     "Segue as regras da sua clínica",
+     "Integrado à agenda que você já usa",
      "Casos sensíveis vão para a recepção"
     ],
     "price": {
-     "label": "Sob medida",
-     "value": "Feito para a rotina da sua clínica"
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
     },
-    "cta": "Atendente IA feito sob medida para o WhatsApp da sua clínica.",
+    "cta": "Agentes de IA sob medida para a operação da sua clínica.",
     "button": "Fale com a gente"
    }
   ]
