@@ -1,0 +1,18 @@
+[
+{
+ "slug": "2026-11-10-quanto-custa-um-mvp",
+ "date": "2026-11-10",
+ "slides": [
+  {"type":"cover","title":"Quanto custa um <span class=\"blue\">MVP</span> de verdade?","sub":"O que entra no preço e o que faz ele subir."},
+  {"type":"text","title":"MVP não é um app pela metade.","body":"É a menor versão do produto que já resolve o problema principal de um usuário real. Por isso o preço depende do que ele precisa fazer, não do número de telas."},
+  {"type":"item","num":"01","title":"O que o sistema precisa fazer","body":"Cada funcionalidade tem regra, tela e teste. Cadastro e login custam pouco. Pagamento, agenda ou cálculo próprio custam mais."},
+  {"type":"item","num":"02","title":"Com quais sistemas ele conversa","body":"Integrar com ERP, CRM, pagamentos ou WhatsApp é parte importante do trabalho. Quanto mais conexões, maior o escopo."},
+  {"type":"item","num":"03","title":"Quem usa e com quais permissões","body":"Um tipo de usuário é simples. Cliente, equipe e gestor, cada um vendo uma parte, exige mais regras."},
+  {"type":"item","num":"04","title":"Onde ele vai rodar","body":"Só web, app no celular ou os dois. Cada plataforma a mais aumenta o trabalho de construção e de teste."},
+  {"type":"turn","title":"Na ByOrbit, o MVP começa em <span class=\"blue\">R$ 20 mil</span>.","sub":"E o valor fica definido antes de começar, com:","checks":["Escopo escrito na Descoberta","Prazo e orçamento fechados","Demonstrações semanais na construção"]},
+  {"type":"cta","title":"Quer saber quanto custa o seu?","body":"Conte o que você quer construir.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "\"Quanto custa um app?\" é como perguntar quanto custa uma casa. Depende do que ela precisa ter.\n\nO preço de um MVP é definido principalmente por 4 coisas:\n\n1. O que o sistema precisa fazer\n2. Com quais sistemas ele conversa (ERP, CRM, pagamentos, WhatsApp)\n3. Quem usa e com quais permissões\n4. Onde ele vai rodar: web, celular ou os dois\n\nNa ByOrbit, um MVP começa em R$ 20 mil. Escopo, prazo e orçamento ficam definidos na Descoberta, antes de começar a construção, e você acompanha tudo em demonstrações semanais.\n\nQual dessas 4 coisas mais pesa no projeto que você tem em mente? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#mvp #desenvolvimentodesoftware #startups #softwaresobmedida #empreendedorismo",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Quanto custa um MVP de verdade?', com 'MVP' em azul e uma órbita fina no canto superior direito."
+}
+]
