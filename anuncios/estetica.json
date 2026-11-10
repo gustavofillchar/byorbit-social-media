@@ -1,0 +1,409 @@
+[
+ {
+  "slug": "estetica-cena-feed",
+  "format": "feed",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/estetica-5.jpg",
+    "title": "Cancelou às 23h. <span class=\"blue\">Horário preenchido</span> antes das 8h.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "23:05",
+      "text": "Não vou conseguir ir amanhã às 10h 😕"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Remarcou a cliente e ofereceu o horário vago para a <strong>lista de espera</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Horário preenchido",
+      "time": "agora",
+      "text": "Qua, 10h · Limpeza de pele"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Lembrete",
+      "text": "Confirmação enviada na véspera."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-cena-story",
+  "format": "story",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/estetica-5.jpg",
+    "title": "Cancelou às 23h. <span class=\"blue\">Horário preenchido</span> antes das 8h.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "23:05",
+      "text": "Não vou conseguir ir amanhã às 10h 😕"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Remarcou a cliente e ofereceu o horário vago para a <strong>lista de espera</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Horário preenchido",
+      "time": "agora",
+      "text": "Qua, 10h · Limpeza de pele"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Lembrete",
+      "text": "Confirmação enviada na véspera."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-conversa-feed",
+  "format": "feed",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quantos horários ficam <span class=\"blue\">vazios por falta?</span>",
+    "clock": "18:21",
+    "contact": {
+     "name": "Studio Bella",
+     "initials": "SB",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Preciso remarcar amanhã 😕",
+      "time": "18:20"
+     },
+     {
+      "from": "out",
+      "text": "Sem problema! Tenho estes horários:",
+      "chips": [
+       "Qui 11h",
+       "Sex 16h"
+      ],
+      "time": "18:20"
+     },
+     {
+      "from": "in",
+      "text": "Sex 16h",
+      "time": "18:21"
+     },
+     {
+      "from": "out",
+      "text": "Remarcado ✨ Te lembro na véspera.",
+      "card": {
+       "title": "Design de sobrancelha",
+       "sub": "Sex, 16h · Studio Bella"
+      },
+      "time": "18:21"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-conversa-story",
+  "format": "story",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quantos horários ficam <span class=\"blue\">vazios por falta?</span>",
+    "clock": "18:21",
+    "contact": {
+     "name": "Studio Bella",
+     "initials": "SB",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Preciso remarcar amanhã 😕",
+      "time": "18:20"
+     },
+     {
+      "from": "out",
+      "text": "Sem problema! Tenho estes horários:",
+      "chips": [
+       "Qui 11h",
+       "Sex 16h"
+      ],
+      "time": "18:20"
+     },
+     {
+      "from": "in",
+      "text": "Sex 16h",
+      "time": "18:21"
+     },
+     {
+      "from": "out",
+      "text": "Remarcado ✨ Te lembro na véspera.",
+      "card": {
+       "title": "Design de sobrancelha",
+       "sub": "Sex, 16h · Studio Bella"
+      },
+      "time": "18:21"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-antes-depois-feed",
+  "format": "feed",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Cada falta é um <span class=\"blue\">horário perdido.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Júlia R.",
+       "msg": "Preciso remarcar",
+       "time": "18:20",
+       "badge": "2"
+      },
+      {
+       "name": "Amanda S.",
+       "msg": "Quanto é a limpeza de pele?",
+       "time": "19:05",
+       "badge": "1"
+      },
+      {
+       "name": "Paula M.",
+       "msg": "Tem horário sábado?",
+       "time": "20:31",
+       "badge": "1"
+      },
+      {
+       "name": "Carol T.",
+       "msg": "Vocês fazem micropigmentação?",
+       "time": "21:10",
+       "badge": "2"
+      },
+      {
+       "name": "Renata F.",
+       "msg": "Esqueci meu horário de amanhã",
+       "time": "22:42",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Júlia R.",
+       "msg": "Remarcado para sexta.",
+       "time": "18:20",
+       "ok": "Remarcado"
+      },
+      {
+       "name": "Amanda S.",
+       "msg": "Valores enviados.",
+       "time": "19:05",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Paula M.",
+       "msg": "Sáb, 9h confirmado.",
+       "time": "20:31",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Carol T.",
+       "msg": "Detalhes enviados.",
+       "time": "21:10",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Renata F.",
+       "msg": "Amanhã, 14h. Até lá!",
+       "time": "22:42",
+       "ok": "Lembrete"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-antes-depois-story",
+  "format": "story",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Cada falta é um <span class=\"blue\">horário perdido.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Júlia R.",
+       "msg": "Preciso remarcar",
+       "time": "18:20",
+       "badge": "2"
+      },
+      {
+       "name": "Amanda S.",
+       "msg": "Quanto é a limpeza de pele?",
+       "time": "19:05",
+       "badge": "1"
+      },
+      {
+       "name": "Paula M.",
+       "msg": "Tem horário sábado?",
+       "time": "20:31",
+       "badge": "1"
+      },
+      {
+       "name": "Carol T.",
+       "msg": "Vocês fazem micropigmentação?",
+       "time": "21:10",
+       "badge": "2"
+      },
+      {
+       "name": "Renata F.",
+       "msg": "Esqueci meu horário de amanhã",
+       "time": "22:42",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Júlia R.",
+       "msg": "Remarcado para sexta.",
+       "time": "18:20",
+       "ok": "Remarcado"
+      },
+      {
+       "name": "Amanda S.",
+       "msg": "Valores enviados.",
+       "time": "19:05",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Paula M.",
+       "msg": "Sáb, 9h confirmado.",
+       "time": "20:31",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Carol T.",
+       "msg": "Detalhes enviados.",
+       "time": "21:10",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Renata F.",
+       "msg": "Amanhã, 14h. Até lá!",
+       "time": "22:42",
+       "ok": "Lembrete"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-sob-medida-feed",
+  "format": "feed",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada espaço é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Agenda e confirma horários",
+     "Remarca e preenche cancelamentos",
+     "Lembra a cliente na véspera",
+     "Responde dúvidas sobre serviços"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "estetica-sob-medida-story",
+  "format": "story",
+  "label": "Para estética e beleza",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada espaço é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Agenda e confirma horários",
+     "Remarca e preenche cancelamentos",
+     "Lembra a cliente na véspera",
+     "Responde dúvidas sobre serviços"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu espaço.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

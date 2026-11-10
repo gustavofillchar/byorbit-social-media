@@ -1,0 +1,409 @@
+[
+ {
+  "slug": "advocacia-cena-feed",
+  "format": "feed",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/advocacia-1.jpg",
+    "title": "Perguntou do processo? <span class=\"blue\">Respondido na hora.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "19:42",
+      "text": "Tem novidade no meu processo?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Consultou o andamento e explicou a <strong>última movimentação</strong> ao cliente."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Reunião marcada",
+      "time": "agora",
+      "text": "Ter, 15h · Dr. Paulo"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Advogado avisado",
+      "text": "Resumo da conversa no painel."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-cena-story",
+  "format": "story",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/advocacia-1.jpg",
+    "title": "Perguntou do processo? <span class=\"blue\">Respondido na hora.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "19:42",
+      "text": "Tem novidade no meu processo?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Consultou o andamento e explicou a <strong>última movimentação</strong> ao cliente."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Reunião marcada",
+      "time": "agora",
+      "text": "Ter, 15h · Dr. Paulo"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Advogado avisado",
+      "text": "Resumo da conversa no painel."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-conversa-feed",
+  "format": "feed",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quantas vezes perguntam <span class=\"blue\">“e o meu processo?”</span>",
+    "clock": "19:43",
+    "contact": {
+     "name": "Silva Advocacia",
+     "initials": "SA",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi, tem novidade no meu processo?",
+      "time": "19:42"
+     },
+     {
+      "from": "out",
+      "text": "Oi, Marcos! Teve movimentação ontem: a audiência foi marcada.",
+      "card": {
+       "title": "Audiência",
+       "sub": "12/12, 14h · Fórum central"
+      },
+      "time": "19:42"
+     },
+     {
+      "from": "in",
+      "text": "Preciso levar algum documento?",
+      "time": "19:43"
+     },
+     {
+      "from": "out",
+      "text": "Vou confirmar com o Dr. Paulo. Quer marcar uma conversa com ele?",
+      "chips": [
+       "Sim, quero",
+       "Não precisa"
+      ],
+      "time": "19:43"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-conversa-story",
+  "format": "story",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quantas vezes perguntam <span class=\"blue\">“e o meu processo?”</span>",
+    "clock": "19:43",
+    "contact": {
+     "name": "Silva Advocacia",
+     "initials": "SA",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi, tem novidade no meu processo?",
+      "time": "19:42"
+     },
+     {
+      "from": "out",
+      "text": "Oi, Marcos! Teve movimentação ontem: a audiência foi marcada.",
+      "card": {
+       "title": "Audiência",
+       "sub": "12/12, 14h · Fórum central"
+      },
+      "time": "19:42"
+     },
+     {
+      "from": "in",
+      "text": "Preciso levar algum documento?",
+      "time": "19:43"
+     },
+     {
+      "from": "out",
+      "text": "Vou confirmar com o Dr. Paulo. Quer marcar uma conversa com ele?",
+      "chips": [
+       "Sim, quero",
+       "Não precisa"
+      ],
+      "time": "19:43"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-antes-depois-feed",
+  "format": "feed",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu advogado não precisa ser o <span class=\"blue\">SAC do escritório.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Marcos A.",
+       "msg": "Tem novidade no processo?",
+       "time": "19:42",
+       "badge": "2"
+      },
+      {
+       "name": "Lúcia F.",
+       "msg": "Vocês atendem trabalhista?",
+       "time": "20:10",
+       "badge": "1"
+      },
+      {
+       "name": "Pedro R.",
+       "msg": "Mandei os documentos, chegou?",
+       "time": "20:35",
+       "badge": "3"
+      },
+      {
+       "name": "Ana C.",
+       "msg": "Posso falar com o Dr. Paulo?",
+       "time": "21:02",
+       "badge": "1"
+      },
+      {
+       "name": "Jorge M.",
+       "msg": "Qual o horário de vocês?",
+       "time": "22:18",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Marcos A.",
+       "msg": "Andamento enviado.",
+       "time": "19:42",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Lúcia F.",
+       "msg": "Triagem feita, reunião marcada.",
+       "time": "20:10",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Pedro R.",
+       "msg": "Recebidos e conferidos.",
+       "time": "20:35",
+       "ok": "Recebido"
+      },
+      {
+       "name": "Ana C.",
+       "msg": "Retorno agendado amanhã.",
+       "time": "21:02",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Jorge M.",
+       "msg": "Horários enviados.",
+       "time": "22:18",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-antes-depois-story",
+  "format": "story",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu advogado não precisa ser o <span class=\"blue\">SAC do escritório.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Marcos A.",
+       "msg": "Tem novidade no processo?",
+       "time": "19:42",
+       "badge": "2"
+      },
+      {
+       "name": "Lúcia F.",
+       "msg": "Vocês atendem trabalhista?",
+       "time": "20:10",
+       "badge": "1"
+      },
+      {
+       "name": "Pedro R.",
+       "msg": "Mandei os documentos, chegou?",
+       "time": "20:35",
+       "badge": "3"
+      },
+      {
+       "name": "Ana C.",
+       "msg": "Posso falar com o Dr. Paulo?",
+       "time": "21:02",
+       "badge": "1"
+      },
+      {
+       "name": "Jorge M.",
+       "msg": "Qual o horário de vocês?",
+       "time": "22:18",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Marcos A.",
+       "msg": "Andamento enviado.",
+       "time": "19:42",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Lúcia F.",
+       "msg": "Triagem feita, reunião marcada.",
+       "time": "20:10",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Pedro R.",
+       "msg": "Recebidos e conferidos.",
+       "time": "20:35",
+       "ok": "Recebido"
+      },
+      {
+       "name": "Ana C.",
+       "msg": "Retorno agendado amanhã.",
+       "time": "21:02",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Jorge M.",
+       "msg": "Horários enviados.",
+       "time": "22:18",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-sob-medida-feed",
+  "format": "feed",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada escritório é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Triagem do primeiro contato",
+     "Andamento do processo ao cliente",
+     "Coleta e conferência de documentos",
+     "Dúvida jurídica vai para o advogado"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "advocacia-sob-medida-story",
+  "format": "story",
+  "label": "Para advocacia",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada escritório é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Triagem do primeiro contato",
+     "Andamento do processo ao cliente",
+     "Coleta e conferência de documentos",
+     "Dúvida jurídica vai para o advogado"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu escritório.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

@@ -1,0 +1,407 @@
+[
+ {
+  "slug": "condominio-cena-feed",
+  "format": "feed",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/condominio-2.jpg",
+    "title": "Reserva do salão às 22h. <span class=\"blue\">Confirmada</span> sem ligação.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "22:02",
+      "text": "Quero reservar o salão de festas dia 20"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Conferiu a agenda e as regras do condomínio e <strong>confirmou a reserva</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Reserva confirmada",
+      "time": "agora",
+      "text": "Sáb 20 · Salão de festas"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Síndico avisado",
+      "text": "Registro no painel."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-cena-story",
+  "format": "story",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/condominio-2.jpg",
+    "title": "Reserva do salão às 22h. <span class=\"blue\">Confirmada</span> sem ligação.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "22:02",
+      "text": "Quero reservar o salão de festas dia 20"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Conferiu a agenda e as regras do condomínio e <strong>confirmou a reserva</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Reserva confirmada",
+      "time": "agora",
+      "text": "Sáb 20 · Salão de festas"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Síndico avisado",
+      "text": "Registro no painel."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-conversa-feed",
+  "format": "feed",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Seu time ainda reserva <span class=\"blue\">salão por telefone?</span>",
+    "clock": "19:11",
+    "contact": {
+     "name": "Admin Condomínios",
+     "initials": "AC",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! Preciso da 2ª via do condomínio",
+      "time": "19:10"
+     },
+     {
+      "from": "out",
+      "text": "Claro, Regina! Apto 42, bloco B:",
+      "card": {
+       "title": "Condomínio novembro",
+       "sub": "2ª via · vence dia 10"
+      },
+      "time": "19:10"
+     },
+     {
+      "from": "in",
+      "text": "Obrigada! E a assembleia é quando?",
+      "time": "19:11"
+     },
+     {
+      "from": "out",
+      "text": "Quinta, 20h, no salão. Te mando a pauta?",
+      "chips": [
+       "Sim, por favor"
+      ],
+      "time": "19:11"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-conversa-story",
+  "format": "story",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Seu time ainda reserva <span class=\"blue\">salão por telefone?</span>",
+    "clock": "19:11",
+    "contact": {
+     "name": "Admin Condomínios",
+     "initials": "AC",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! Preciso da 2ª via do condomínio",
+      "time": "19:10"
+     },
+     {
+      "from": "out",
+      "text": "Claro, Regina! Apto 42, bloco B:",
+      "card": {
+       "title": "Condomínio novembro",
+       "sub": "2ª via · vence dia 10"
+      },
+      "time": "19:10"
+     },
+     {
+      "from": "in",
+      "text": "Obrigada! E a assembleia é quando?",
+      "time": "19:11"
+     },
+     {
+      "from": "out",
+      "text": "Quinta, 20h, no salão. Te mando a pauta?",
+      "chips": [
+       "Sim, por favor"
+      ],
+      "time": "19:11"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-antes-depois-feed",
+  "format": "feed",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Síndico e administradora <span class=\"blue\">sem fila no WhatsApp.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Regina A.",
+       "msg": "2ª via do condomínio?",
+       "time": "19:10",
+       "badge": "2"
+      },
+      {
+       "name": "Marcelo D.",
+       "msg": "Quero reservar a churrasqueira",
+       "time": "19:45",
+       "badge": "1"
+      },
+      {
+       "name": "Viviane P.",
+       "msg": "Vazamento na garagem",
+       "time": "20:20",
+       "badge": "3"
+      },
+      {
+       "name": "Otávio S.",
+       "msg": "Quando é a assembleia?",
+       "time": "21:02",
+       "badge": "1"
+      },
+      {
+       "name": "Lia M.",
+       "msg": "Posso fazer mudança sábado?",
+       "time": "21:40",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Regina A.",
+       "msg": "2ª via enviada.",
+       "time": "19:10",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Marcelo D.",
+       "msg": "Reserva confirmada.",
+       "time": "19:45",
+       "ok": "Reservado"
+      },
+      {
+       "name": "Viviane P.",
+       "msg": "Chamado aberto.",
+       "time": "20:20",
+       "ok": "Chamado"
+      },
+      {
+       "name": "Otávio S.",
+       "msg": "Quinta, 20h. Pauta enviada.",
+       "time": "21:02",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Lia M.",
+       "msg": "Regras e horário enviados.",
+       "time": "21:40",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-antes-depois-story",
+  "format": "story",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Síndico e administradora <span class=\"blue\">sem fila no WhatsApp.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Regina A.",
+       "msg": "2ª via do condomínio?",
+       "time": "19:10",
+       "badge": "2"
+      },
+      {
+       "name": "Marcelo D.",
+       "msg": "Quero reservar a churrasqueira",
+       "time": "19:45",
+       "badge": "1"
+      },
+      {
+       "name": "Viviane P.",
+       "msg": "Vazamento na garagem",
+       "time": "20:20",
+       "badge": "3"
+      },
+      {
+       "name": "Otávio S.",
+       "msg": "Quando é a assembleia?",
+       "time": "21:02",
+       "badge": "1"
+      },
+      {
+       "name": "Lia M.",
+       "msg": "Posso fazer mudança sábado?",
+       "time": "21:40",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Regina A.",
+       "msg": "2ª via enviada.",
+       "time": "19:10",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Marcelo D.",
+       "msg": "Reserva confirmada.",
+       "time": "19:45",
+       "ok": "Reservado"
+      },
+      {
+       "name": "Viviane P.",
+       "msg": "Chamado aberto.",
+       "time": "20:20",
+       "ok": "Chamado"
+      },
+      {
+       "name": "Otávio S.",
+       "msg": "Quinta, 20h. Pauta enviada.",
+       "time": "21:02",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Lia M.",
+       "msg": "Regras e horário enviados.",
+       "time": "21:40",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-sob-medida-feed",
+  "format": "feed",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada condomínio é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Reservas de áreas comuns",
+     "Boletos e 2ª via",
+     "Chamados de manutenção",
+     "Avisos e assembleias"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "condominio-sob-medida-story",
+  "format": "story",
+  "label": "Para administradoras",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada condomínio é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Reservas de áreas comuns",
+     "Boletos e 2ª via",
+     "Chamados de manutenção",
+     "Avisos e assembleias"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua administradora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

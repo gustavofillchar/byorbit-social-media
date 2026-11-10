@@ -1,0 +1,409 @@
+[
+ {
+  "slug": "imobiliaria-cena-feed",
+  "format": "feed",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/imobiliaria-3.jpg",
+    "title": "Lead do anúncio às 22h. <span class=\"blue\">Visita marcada</span> às 22h.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Novo lead",
+      "time": "22:07",
+      "text": "O apê de 2 quartos ainda está disponível?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Confirmou o imóvel e qualificou <strong>orçamento e prazo</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Visita agendada",
+      "time": "agora",
+      "text": "Sáb, 10h · Corretor Diego"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "CRM atualizado",
+      "text": "Lead registrado com o perfil."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-cena-story",
+  "format": "story",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/imobiliaria-3.jpg",
+    "title": "Lead do anúncio às 22h. <span class=\"blue\">Visita marcada</span> às 22h.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Novo lead",
+      "time": "22:07",
+      "text": "O apê de 2 quartos ainda está disponível?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Confirmou o imóvel e qualificou <strong>orçamento e prazo</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Visita agendada",
+      "time": "agora",
+      "text": "Sáb, 10h · Corretor Diego"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "CRM atualizado",
+      "text": "Lead registrado com o perfil."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-conversa-feed",
+  "format": "feed",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quanto tempo seu lead <span class=\"blue\">espera resposta?</span>",
+    "clock": "22:09",
+    "contact": {
+     "name": "Alpha Imóveis",
+     "initials": "AI",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! O apê de 2 quartos ainda está disponível?",
+      "time": "22:07"
+     },
+     {
+      "from": "out",
+      "text": "Está sim! É para compra ou aluguel?",
+      "chips": [
+       "Compra",
+       "Aluguel"
+      ],
+      "time": "22:07"
+     },
+     {
+      "from": "in",
+      "text": "Aluguel, para janeiro",
+      "time": "22:08"
+     },
+     {
+      "from": "out",
+      "text": "Perfeito! Agendei uma visita com o Diego.",
+      "card": {
+       "title": "Visita agendada",
+       "sub": "Sáb, 10h · Rua das Flores"
+      },
+      "time": "22:09"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-conversa-story",
+  "format": "story",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quanto tempo seu lead <span class=\"blue\">espera resposta?</span>",
+    "clock": "22:09",
+    "contact": {
+     "name": "Alpha Imóveis",
+     "initials": "AI",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! O apê de 2 quartos ainda está disponível?",
+      "time": "22:07"
+     },
+     {
+      "from": "out",
+      "text": "Está sim! É para compra ou aluguel?",
+      "chips": [
+       "Compra",
+       "Aluguel"
+      ],
+      "time": "22:07"
+     },
+     {
+      "from": "in",
+      "text": "Aluguel, para janeiro",
+      "time": "22:08"
+     },
+     {
+      "from": "out",
+      "text": "Perfeito! Agendei uma visita com o Diego.",
+      "card": {
+       "title": "Visita agendada",
+       "sub": "Sáb, 10h · Rua das Flores"
+      },
+      "time": "22:09"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-antes-depois-feed",
+  "format": "feed",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Lead sem resposta <span class=\"blue\">vai para o concorrente.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Felipe A.",
+       "msg": "Ainda está disponível?",
+       "time": "21:47",
+       "badge": "2"
+      },
+      {
+       "name": "Juliana R.",
+       "msg": "Aceita pet?",
+       "time": "22:03",
+       "badge": "1"
+      },
+      {
+       "name": "Marcos T.",
+       "msg": "Qual o valor do condomínio?",
+       "time": "22:31",
+       "badge": "1"
+      },
+      {
+       "name": "Patrícia L.",
+       "msg": "Dá pra visitar amanhã?",
+       "time": "23:10",
+       "badge": "2"
+      },
+      {
+       "name": "Sérgio B.",
+       "msg": "Têm casa com quintal?",
+       "time": "23:42",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Felipe A.",
+       "msg": "Disponível, visita sábado.",
+       "time": "21:47",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Juliana R.",
+       "msg": "Aceita, regras enviadas.",
+       "time": "22:03",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Marcos T.",
+       "msg": "Valores enviados.",
+       "time": "22:31",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Patrícia L.",
+       "msg": "Visita amanhã, 10h.",
+       "time": "23:10",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Sérgio B.",
+       "msg": "3 opções enviadas.",
+       "time": "23:42",
+       "ok": "Enviado"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-antes-depois-story",
+  "format": "story",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Lead sem resposta <span class=\"blue\">vai para o concorrente.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Felipe A.",
+       "msg": "Ainda está disponível?",
+       "time": "21:47",
+       "badge": "2"
+      },
+      {
+       "name": "Juliana R.",
+       "msg": "Aceita pet?",
+       "time": "22:03",
+       "badge": "1"
+      },
+      {
+       "name": "Marcos T.",
+       "msg": "Qual o valor do condomínio?",
+       "time": "22:31",
+       "badge": "1"
+      },
+      {
+       "name": "Patrícia L.",
+       "msg": "Dá pra visitar amanhã?",
+       "time": "23:10",
+       "badge": "2"
+      },
+      {
+       "name": "Sérgio B.",
+       "msg": "Têm casa com quintal?",
+       "time": "23:42",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Felipe A.",
+       "msg": "Disponível, visita sábado.",
+       "time": "21:47",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Juliana R.",
+       "msg": "Aceita, regras enviadas.",
+       "time": "22:03",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Marcos T.",
+       "msg": "Valores enviados.",
+       "time": "22:31",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Patrícia L.",
+       "msg": "Visita amanhã, 10h.",
+       "time": "23:10",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Sérgio B.",
+       "msg": "3 opções enviadas.",
+       "time": "23:42",
+       "ok": "Enviado"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-sob-medida-feed",
+  "format": "feed",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada imobiliária é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Responde o lead na hora",
+     "Qualifica orçamento e prazo",
+     "Agenda visitas com o corretor",
+     "Registra tudo no seu CRM"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "imobiliaria-sob-medida-story",
+  "format": "story",
+  "label": "Para imobiliárias",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada imobiliária é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Responde o lead na hora",
+     "Qualifica orçamento e prazo",
+     "Agenda visitas com o corretor",
+     "Registra tudo no seu CRM"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua imobiliária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

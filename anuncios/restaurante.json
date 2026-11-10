@@ -1,0 +1,409 @@
+[
+ {
+  "slug": "restaurante-cena-feed",
+  "format": "feed",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/restaurante-1.jpg",
+    "title": "Pedido no WhatsApp às 21h. <span class=\"blue\">Na cozinha</span> em segundos.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Novo pedido",
+      "time": "21:12",
+      "text": "Quero 2 smash e uma coca, pra entrega"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Montou o pedido, confirmou o endereço e <strong>enviou o link de pagamento</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Pedido na cozinha",
+      "time": "agora",
+      "text": "#482 · Entrega em ~40 min"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Cliente avisado",
+      "text": "Status enviado a cada etapa."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-cena-story",
+  "format": "story",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/restaurante-1.jpg",
+    "title": "Pedido no WhatsApp às 21h. <span class=\"blue\">Na cozinha</span> em segundos.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Novo pedido",
+      "time": "21:12",
+      "text": "Quero 2 smash e uma coca, pra entrega"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Montou o pedido, confirmou o endereço e <strong>enviou o link de pagamento</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Pedido na cozinha",
+      "time": "agora",
+      "text": "#482 · Entrega em ~40 min"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Cliente avisado",
+      "text": "Status enviado a cada etapa."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-conversa-feed",
+  "format": "feed",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Pedido no WhatsApp <span class=\"blue\">sem atendente travado.</span>",
+    "clock": "21:13",
+    "contact": {
+     "name": "Burger da Vila",
+     "initials": "BV",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Boa noite! Quero 2 smash e 1 coca, entrega",
+      "time": "21:12"
+     },
+     {
+      "from": "out",
+      "text": "Boa noite! 2 Smash + 1 Coca lata. Entrego na Rua Ipê, 120?",
+      "chips": [
+       "Isso",
+       "Outro endereço"
+      ],
+      "time": "21:12"
+     },
+     {
+      "from": "in",
+      "text": "Isso!",
+      "time": "21:13"
+     },
+     {
+      "from": "out",
+      "text": "Pedido confirmado 🍔",
+      "card": {
+       "title": "Pedido #482",
+       "sub": "Na cozinha · entrega ~40 min"
+      },
+      "time": "21:13"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-conversa-story",
+  "format": "story",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Pedido no WhatsApp <span class=\"blue\">sem atendente travado.</span>",
+    "clock": "21:13",
+    "contact": {
+     "name": "Burger da Vila",
+     "initials": "BV",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Boa noite! Quero 2 smash e 1 coca, entrega",
+      "time": "21:12"
+     },
+     {
+      "from": "out",
+      "text": "Boa noite! 2 Smash + 1 Coca lata. Entrego na Rua Ipê, 120?",
+      "chips": [
+       "Isso",
+       "Outro endereço"
+      ],
+      "time": "21:12"
+     },
+     {
+      "from": "in",
+      "text": "Isso!",
+      "time": "21:13"
+     },
+     {
+      "from": "out",
+      "text": "Pedido confirmado 🍔",
+      "card": {
+       "title": "Pedido #482",
+       "sub": "Na cozinha · entrega ~40 min"
+      },
+      "time": "21:13"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-antes-depois-feed",
+  "format": "feed",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Sexta à noite <span class=\"blue\">sem pedido perdido.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Thiago R.",
+       "msg": "Quero 2 smash pra entrega",
+       "time": "21:12",
+       "badge": "2"
+      },
+      {
+       "name": "Bia L.",
+       "msg": "Vocês têm opção vegana?",
+       "time": "21:20",
+       "badge": "1"
+      },
+      {
+       "name": "Paulo H.",
+       "msg": "Meu pedido já saiu?",
+       "time": "21:34",
+       "badge": "3"
+      },
+      {
+       "name": "Nina F.",
+       "msg": "Aceita Pix?",
+       "time": "21:41",
+       "badge": "1"
+      },
+      {
+       "name": "André C.",
+       "msg": "Qual a taxa de entrega?",
+       "time": "21:55",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Thiago R.",
+       "msg": "Pedido #482 confirmado.",
+       "time": "21:12",
+       "ok": "Pedido"
+      },
+      {
+       "name": "Bia L.",
+       "msg": "Cardápio vegano enviado.",
+       "time": "21:20",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Paulo H.",
+       "msg": "Saiu, chega em 10 min.",
+       "time": "21:34",
+       "ok": "Status"
+      },
+      {
+       "name": "Nina F.",
+       "msg": "Sim, link Pix enviado.",
+       "time": "21:41",
+       "ok": "Respondido"
+      },
+      {
+       "name": "André C.",
+       "msg": "Taxa e prazo enviados.",
+       "time": "21:55",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-antes-depois-story",
+  "format": "story",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Sexta à noite <span class=\"blue\">sem pedido perdido.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Thiago R.",
+       "msg": "Quero 2 smash pra entrega",
+       "time": "21:12",
+       "badge": "2"
+      },
+      {
+       "name": "Bia L.",
+       "msg": "Vocês têm opção vegana?",
+       "time": "21:20",
+       "badge": "1"
+      },
+      {
+       "name": "Paulo H.",
+       "msg": "Meu pedido já saiu?",
+       "time": "21:34",
+       "badge": "3"
+      },
+      {
+       "name": "Nina F.",
+       "msg": "Aceita Pix?",
+       "time": "21:41",
+       "badge": "1"
+      },
+      {
+       "name": "André C.",
+       "msg": "Qual a taxa de entrega?",
+       "time": "21:55",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Thiago R.",
+       "msg": "Pedido #482 confirmado.",
+       "time": "21:12",
+       "ok": "Pedido"
+      },
+      {
+       "name": "Bia L.",
+       "msg": "Cardápio vegano enviado.",
+       "time": "21:20",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Paulo H.",
+       "msg": "Saiu, chega em 10 min.",
+       "time": "21:34",
+       "ok": "Status"
+      },
+      {
+       "name": "Nina F.",
+       "msg": "Sim, link Pix enviado.",
+       "time": "21:41",
+       "ok": "Respondido"
+      },
+      {
+       "name": "André C.",
+       "msg": "Taxa e prazo enviados.",
+       "time": "21:55",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-sob-medida-feed",
+  "format": "feed",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada restaurante é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Recebe e confirma pedidos",
+     "Integra com cardápio e caixa",
+     "Informa o status da entrega",
+     "Reclamações vão ao gerente"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "restaurante-sob-medida-story",
+  "format": "story",
+  "label": "Para restaurantes",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada restaurante é único. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Recebe e confirma pedidos",
+     "Integra com cardápio e caixa",
+     "Informa o status da entrega",
+     "Reclamações vão ao gerente"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação do seu restaurante.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

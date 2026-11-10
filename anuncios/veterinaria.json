@@ -1,0 +1,399 @@
+[
+ {
+  "slug": "veterinaria-cena-feed",
+  "format": "feed",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/veterinaria-3.jpg",
+    "title": "Vacina vencendo? <span class=\"blue\">Tutor já avisado.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "21:30",
+      "text": "A vacina da Mel está vencendo?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Consultou a ficha da Mel e sugeriu <strong>horários para a vacina</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Vacina agendada",
+      "time": "agora",
+      "text": "Sex, 9h · Mel (V10)"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Lembrete",
+      "text": "Enviado ao tutor na véspera."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-cena-story",
+  "format": "story",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/veterinaria-3.jpg",
+    "title": "Vacina vencendo? <span class=\"blue\">Tutor já avisado.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "21:30",
+      "text": "A vacina da Mel está vencendo?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Consultou a ficha da Mel e sugeriu <strong>horários para a vacina</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Vacina agendada",
+      "time": "agora",
+      "text": "Sex, 9h · Mel (V10)"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Lembrete",
+      "text": "Enviado ao tutor na véspera."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-conversa-feed",
+  "format": "feed",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Seu cliente lembra da <span class=\"blue\">vacina do pet?</span>",
+    "clock": "10:12",
+    "contact": {
+     "name": "Clínica Patas",
+     "initials": "CP",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "out",
+      "text": "Oi, Carla! A vacina V10 da Mel vence semana que vem 🐶 Quer agendar?",
+      "chips": [
+       "Sim",
+       "Depois"
+      ],
+      "time": "10:00"
+     },
+     {
+      "from": "in",
+      "text": "Sim! Sexta de manhã dá?",
+      "time": "10:12"
+     },
+     {
+      "from": "out",
+      "text": "Dá sim! Sexta, 9h com a Dra. Bia.",
+      "card": {
+       "title": "Vacina agendada",
+       "sub": "Sex, 9h · Mel"
+      },
+      "time": "10:12"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-conversa-story",
+  "format": "story",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Seu cliente lembra da <span class=\"blue\">vacina do pet?</span>",
+    "clock": "10:12",
+    "contact": {
+     "name": "Clínica Patas",
+     "initials": "CP",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "out",
+      "text": "Oi, Carla! A vacina V10 da Mel vence semana que vem 🐶 Quer agendar?",
+      "chips": [
+       "Sim",
+       "Depois"
+      ],
+      "time": "10:00"
+     },
+     {
+      "from": "in",
+      "text": "Sim! Sexta de manhã dá?",
+      "time": "10:12"
+     },
+     {
+      "from": "out",
+      "text": "Dá sim! Sexta, 9h com a Dra. Bia.",
+      "card": {
+       "title": "Vacina agendada",
+       "sub": "Sex, 9h · Mel"
+      },
+      "time": "10:12"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-antes-depois-feed",
+  "format": "feed",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Mais tutores atendidos, <span class=\"blue\">menos telefone tocando.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Carla M.",
+       "msg": "A vacina da Mel venceu?",
+       "time": "21:30",
+       "badge": "2"
+      },
+      {
+       "name": "Rodrigo P.",
+       "msg": "Tem banho e tosa sábado?",
+       "time": "21:55",
+       "badge": "1"
+      },
+      {
+       "name": "Fernanda L.",
+       "msg": "Meu gato não está comendo",
+       "time": "22:20",
+       "badge": "3"
+      },
+      {
+       "name": "Lucas A.",
+       "msg": "Qual o horário de vocês?",
+       "time": "22:48",
+       "badge": "1"
+      },
+      {
+       "name": "Bianca S.",
+       "msg": "O exame do Thor saiu?",
+       "time": "23:15",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Carla M.",
+       "msg": "Vacina agendada.",
+       "time": "21:30",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Rodrigo P.",
+       "msg": "Sábado, 10h confirmado.",
+       "time": "21:55",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Fernanda L.",
+       "msg": "Passado ao veterinário.",
+       "time": "22:20",
+       "ok": "Equipe"
+      },
+      {
+       "name": "Lucas A.",
+       "msg": "Horários enviados.",
+       "time": "22:48",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Bianca S.",
+       "msg": "Resultado enviado.",
+       "time": "23:15",
+       "ok": "Enviado"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-antes-depois-story",
+  "format": "story",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Mais tutores atendidos, <span class=\"blue\">menos telefone tocando.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Carla M.",
+       "msg": "A vacina da Mel venceu?",
+       "time": "21:30",
+       "badge": "2"
+      },
+      {
+       "name": "Rodrigo P.",
+       "msg": "Tem banho e tosa sábado?",
+       "time": "21:55",
+       "badge": "1"
+      },
+      {
+       "name": "Fernanda L.",
+       "msg": "Meu gato não está comendo",
+       "time": "22:20",
+       "badge": "3"
+      },
+      {
+       "name": "Lucas A.",
+       "msg": "Qual o horário de vocês?",
+       "time": "22:48",
+       "badge": "1"
+      },
+      {
+       "name": "Bianca S.",
+       "msg": "O exame do Thor saiu?",
+       "time": "23:15",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Carla M.",
+       "msg": "Vacina agendada.",
+       "time": "21:30",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Rodrigo P.",
+       "msg": "Sábado, 10h confirmado.",
+       "time": "21:55",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Fernanda L.",
+       "msg": "Passado ao veterinário.",
+       "time": "22:20",
+       "ok": "Equipe"
+      },
+      {
+       "name": "Lucas A.",
+       "msg": "Horários enviados.",
+       "time": "22:48",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Bianca S.",
+       "msg": "Resultado enviado.",
+       "time": "23:15",
+       "ok": "Enviado"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-sob-medida-feed",
+  "format": "feed",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada clínica é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Lembra vacinas e retornos",
+     "Agenda consultas e banho e tosa",
+     "Envia resultados de exames",
+     "Urgências vão para a equipe"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "veterinaria-sob-medida-story",
+  "format": "story",
+  "label": "Para veterinárias",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada clínica é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Lembra vacinas e retornos",
+     "Agenda consultas e banho e tosa",
+     "Envia resultados de exames",
+     "Urgências vão para a equipe"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua veterinária.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

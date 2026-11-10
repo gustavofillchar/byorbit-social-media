@@ -1,0 +1,399 @@
+[
+ {
+  "slug": "contabilidade-cena-feed",
+  "format": "feed",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/contabilidade-1.jpg",
+    "title": "Fechamento do mês sem <span class=\"blue\">correr atrás</span> de cliente.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "15:01",
+      "text": "Segue o extrato de outubro 📎"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Conferiu os arquivos e avisou que <strong>falta 1 nota de compra</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Tudo recebido",
+      "time": "agora",
+      "text": "Outubro · Padaria Bom Dia"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Guia enviada",
+      "text": "DAS do mês no WhatsApp do cliente."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-cena-story",
+  "format": "story",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/contabilidade-1.jpg",
+    "title": "Fechamento do mês sem <span class=\"blue\">correr atrás</span> de cliente.",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "15:01",
+      "text": "Segue o extrato de outubro 📎"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Conferiu os arquivos e avisou que <strong>falta 1 nota de compra</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Tudo recebido",
+      "time": "agora",
+      "text": "Outubro · Padaria Bom Dia"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Guia enviada",
+      "text": "DAS do mês no WhatsApp do cliente."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-conversa-feed",
+  "format": "feed",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Ainda cobra documento <span class=\"blue\">cliente por cliente?</span>",
+    "clock": "15:02",
+    "contact": {
+     "name": "Lima Contabilidade",
+     "initials": "LC",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "out",
+      "text": "Oi, Renata! Para fechar outubro, faltam:",
+      "chips": [
+       "Extrato bancário",
+       "Nota de compra"
+      ],
+      "time": "09:00"
+     },
+     {
+      "from": "in",
+      "text": "Segue o extrato 📎",
+      "time": "15:01"
+     },
+     {
+      "from": "out",
+      "text": "Recebido e conferido ✅ Só falta a nota de compra. Te lembro amanhã cedo.",
+      "card": {
+       "title": "Guia do DAS",
+       "sub": "Vence dia 20 · enviada"
+      },
+      "time": "15:02"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-conversa-story",
+  "format": "story",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Ainda cobra documento <span class=\"blue\">cliente por cliente?</span>",
+    "clock": "15:02",
+    "contact": {
+     "name": "Lima Contabilidade",
+     "initials": "LC",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "out",
+      "text": "Oi, Renata! Para fechar outubro, faltam:",
+      "chips": [
+       "Extrato bancário",
+       "Nota de compra"
+      ],
+      "time": "09:00"
+     },
+     {
+      "from": "in",
+      "text": "Segue o extrato 📎",
+      "time": "15:01"
+     },
+     {
+      "from": "out",
+      "text": "Recebido e conferido ✅ Só falta a nota de compra. Te lembro amanhã cedo.",
+      "card": {
+       "title": "Guia do DAS",
+       "sub": "Vence dia 20 · enviada"
+      },
+      "time": "15:02"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-antes-depois-feed",
+  "format": "feed",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu time não precisa virar <span class=\"blue\">cobrador de documento.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Renata P.",
+       "msg": "Qual o valor da guia?",
+       "time": "08:12",
+       "badge": "2"
+      },
+      {
+       "name": "Bruno S.",
+       "msg": "Esqueci de mandar a nota",
+       "time": "09:40",
+       "badge": "1"
+      },
+      {
+       "name": "Carla D.",
+       "msg": "Mandei o extrato, chegou?",
+       "time": "11:05",
+       "badge": "3"
+      },
+      {
+       "name": "Tiago L.",
+       "msg": "Preciso da 2ª via do DAS",
+       "time": "14:30",
+       "badge": "1"
+      },
+      {
+       "name": "Marina C.",
+       "msg": "Como emito nota fiscal?",
+       "time": "17:52",
+       "badge": "2"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Renata P.",
+       "msg": "Guia enviada.",
+       "time": "08:12",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Bruno S.",
+       "msg": "Lembrete agendado.",
+       "time": "09:40",
+       "ok": "Cobrado"
+      },
+      {
+       "name": "Carla D.",
+       "msg": "Recebido e conferido.",
+       "time": "11:05",
+       "ok": "Recebido"
+      },
+      {
+       "name": "Tiago L.",
+       "msg": "2ª via enviada.",
+       "time": "14:30",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Marina C.",
+       "msg": "Passo a passo enviado.",
+       "time": "17:52",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-antes-depois-story",
+  "format": "story",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu time não precisa virar <span class=\"blue\">cobrador de documento.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Renata P.",
+       "msg": "Qual o valor da guia?",
+       "time": "08:12",
+       "badge": "2"
+      },
+      {
+       "name": "Bruno S.",
+       "msg": "Esqueci de mandar a nota",
+       "time": "09:40",
+       "badge": "1"
+      },
+      {
+       "name": "Carla D.",
+       "msg": "Mandei o extrato, chegou?",
+       "time": "11:05",
+       "badge": "3"
+      },
+      {
+       "name": "Tiago L.",
+       "msg": "Preciso da 2ª via do DAS",
+       "time": "14:30",
+       "badge": "1"
+      },
+      {
+       "name": "Marina C.",
+       "msg": "Como emito nota fiscal?",
+       "time": "17:52",
+       "badge": "2"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Renata P.",
+       "msg": "Guia enviada.",
+       "time": "08:12",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Bruno S.",
+       "msg": "Lembrete agendado.",
+       "time": "09:40",
+       "ok": "Cobrado"
+      },
+      {
+       "name": "Carla D.",
+       "msg": "Recebido e conferido.",
+       "time": "11:05",
+       "ok": "Recebido"
+      },
+      {
+       "name": "Tiago L.",
+       "msg": "2ª via enviada.",
+       "time": "14:30",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Marina C.",
+       "msg": "Passo a passo enviado.",
+       "time": "17:52",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-sob-medida-feed",
+  "format": "feed",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada contabilidade é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Cobra e confere documentos",
+     "Envia guias e 2ª via",
+     "Responde dúvidas recorrentes",
+     "Exceções vão para o contador"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "contabilidade-sob-medida-story",
+  "format": "story",
+  "label": "Para contabilidade",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada contabilidade é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Cobra e confere documentos",
+     "Envia guias e 2ª via",
+     "Responde dúvidas recorrentes",
+     "Exceções vão para o contador"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua contabilidade.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

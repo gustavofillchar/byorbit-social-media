@@ -1,0 +1,407 @@
+[
+ {
+  "slug": "escola-cena-feed",
+  "format": "feed",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/escola-1.jpg",
+    "title": "Matrícula às 22h? <span class=\"blue\">Visita agendada.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "22:14",
+      "text": "Ainda tem vaga no 3º ano para 2027?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Explicou o processo de matrícula e <strong>agendou a visita</strong> com a secretaria."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Visita agendada",
+      "time": "agora",
+      "text": "Seg, 8h30 · Secretaria"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Documentos",
+      "text": "Lista enviada para a família."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "escola-cena-story",
+  "format": "story",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/escola-1.jpg",
+    "title": "Matrícula às 22h? <span class=\"blue\">Visita agendada.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "22:14",
+      "text": "Ainda tem vaga no 3º ano para 2027?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Explicou o processo de matrícula e <strong>agendou a visita</strong> com a secretaria."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Visita agendada",
+      "time": "agora",
+      "text": "Seg, 8h30 · Secretaria"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Documentos",
+      "text": "Lista enviada para a família."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "escola-conversa-feed",
+  "format": "feed",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Secretaria lotada <span class=\"blue\">em época de matrícula?</span>",
+    "clock": "20:06",
+    "contact": {
+     "name": "Colégio Horizonte",
+     "initials": "CH",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! Preciso da 2ª via do boleto de novembro",
+      "time": "20:05"
+     },
+     {
+      "from": "out",
+      "text": "Claro! Aqui está a 2ª via do Pedro:",
+      "card": {
+       "title": "Mensalidade novembro",
+       "sub": "2ª via · vence dia 10"
+      },
+      "time": "20:05"
+     },
+     {
+      "from": "in",
+      "text": "Obrigada! E a reunião de pais é quando?",
+      "time": "20:06"
+     },
+     {
+      "from": "out",
+      "text": "Sábado, 9h, no auditório. Quer um lembrete na sexta?",
+      "chips": [
+       "Sim, por favor"
+      ],
+      "time": "20:06"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "escola-conversa-story",
+  "format": "story",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Secretaria lotada <span class=\"blue\">em época de matrícula?</span>",
+    "clock": "20:06",
+    "contact": {
+     "name": "Colégio Horizonte",
+     "initials": "CH",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Oi! Preciso da 2ª via do boleto de novembro",
+      "time": "20:05"
+     },
+     {
+      "from": "out",
+      "text": "Claro! Aqui está a 2ª via do Pedro:",
+      "card": {
+       "title": "Mensalidade novembro",
+       "sub": "2ª via · vence dia 10"
+      },
+      "time": "20:05"
+     },
+     {
+      "from": "in",
+      "text": "Obrigada! E a reunião de pais é quando?",
+      "time": "20:06"
+     },
+     {
+      "from": "out",
+      "text": "Sábado, 9h, no auditório. Quer um lembrete na sexta?",
+      "chips": [
+       "Sim, por favor"
+      ],
+      "time": "20:06"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "escola-antes-depois-feed",
+  "format": "feed",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Sua secretaria livre das <span class=\"blue\">perguntas repetidas.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Luciana P.",
+       "msg": "2ª via do boleto?",
+       "time": "19:40",
+       "badge": "2"
+      },
+      {
+       "name": "Ricardo L.",
+       "msg": "Tem vaga no 3º ano?",
+       "time": "20:05",
+       "badge": "1"
+      },
+      {
+       "name": "Sandra M.",
+       "msg": "Qual é o uniforme?",
+       "time": "20:48",
+       "badge": "1"
+      },
+      {
+       "name": "Fábio N.",
+       "msg": "Que horas é a reunião?",
+       "time": "21:30",
+       "badge": "3"
+      },
+      {
+       "name": "Cláudia R.",
+       "msg": "Como faço a rematrícula?",
+       "time": "22:12",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Luciana P.",
+       "msg": "2ª via enviada.",
+       "time": "19:40",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Ricardo L.",
+       "msg": "Visita agendada.",
+       "time": "20:05",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Sandra M.",
+       "msg": "Lista e loja enviadas.",
+       "time": "20:48",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Fábio N.",
+       "msg": "Sábado, 9h. Lembrete ativo.",
+       "time": "21:30",
+       "ok": "Lembrete"
+      },
+      {
+       "name": "Cláudia R.",
+       "msg": "Passo a passo enviado.",
+       "time": "22:12",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "escola-antes-depois-story",
+  "format": "story",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Sua secretaria livre das <span class=\"blue\">perguntas repetidas.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Luciana P.",
+       "msg": "2ª via do boleto?",
+       "time": "19:40",
+       "badge": "2"
+      },
+      {
+       "name": "Ricardo L.",
+       "msg": "Tem vaga no 3º ano?",
+       "time": "20:05",
+       "badge": "1"
+      },
+      {
+       "name": "Sandra M.",
+       "msg": "Qual é o uniforme?",
+       "time": "20:48",
+       "badge": "1"
+      },
+      {
+       "name": "Fábio N.",
+       "msg": "Que horas é a reunião?",
+       "time": "21:30",
+       "badge": "3"
+      },
+      {
+       "name": "Cláudia R.",
+       "msg": "Como faço a rematrícula?",
+       "time": "22:12",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Luciana P.",
+       "msg": "2ª via enviada.",
+       "time": "19:40",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Ricardo L.",
+       "msg": "Visita agendada.",
+       "time": "20:05",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Sandra M.",
+       "msg": "Lista e loja enviadas.",
+       "time": "20:48",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Fábio N.",
+       "msg": "Sábado, 9h. Lembrete ativo.",
+       "time": "21:30",
+       "ok": "Lembrete"
+      },
+      {
+       "name": "Cláudia R.",
+       "msg": "Passo a passo enviado.",
+       "time": "22:12",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "escola-sob-medida-feed",
+  "format": "feed",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada escola é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Tira dúvidas de matrícula",
+     "Envia boletos e 2ª via",
+     "Avisa reuniões e eventos",
+     "Casos delicados vão à secretaria"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "escola-sob-medida-story",
+  "format": "story",
+  "label": "Para escolas e cursos",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada escola é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Tira dúvidas de matrícula",
+     "Envia boletos e 2ª via",
+     "Avisa reuniões e eventos",
+     "Casos delicados vão à secretaria"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a rotina da sua escola.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

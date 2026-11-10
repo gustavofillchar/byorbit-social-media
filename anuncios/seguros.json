@@ -1,0 +1,399 @@
+[
+ {
+  "slug": "seguros-cena-feed",
+  "format": "feed",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/seguros-1.jpg",
+    "title": "Bateu o carro às 20h. <span class=\"blue\">Sinistro encaminhado.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "20:18",
+      "text": "Bati o carro, o que eu faço?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Orientou o passo a passo e <strong>coletou fotos e documentos</strong> do sinistro."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Sinistro aberto",
+      "time": "agora",
+      "text": "Protocolo enviado ao cliente"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Corretor avisado",
+      "text": "Resumo pronto para acompanhar."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-cena-story",
+  "format": "story",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/seguros-1.jpg",
+    "title": "Bateu o carro às 20h. <span class=\"blue\">Sinistro encaminhado.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "20:18",
+      "text": "Bati o carro, o que eu faço?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Orientou o passo a passo e <strong>coletou fotos e documentos</strong> do sinistro."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Sinistro aberto",
+      "time": "agora",
+      "text": "Protocolo enviado ao cliente"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Corretor avisado",
+      "text": "Resumo pronto para acompanhar."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-conversa-feed",
+  "format": "feed",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Renovação esquecida é <span class=\"blue\">cliente perdido.</span>",
+    "clock": "10:30",
+    "contact": {
+     "name": "Prime Seguros",
+     "initials": "PS",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "out",
+      "text": "Oi, Eduardo! Seu seguro auto vence dia 15. Quer que eu prepare a renovação?",
+      "chips": [
+       "Sim",
+       "Quero cotar"
+      ],
+      "time": "10:00"
+     },
+     {
+      "from": "in",
+      "text": "Sim, mesma cobertura",
+      "time": "10:30"
+     },
+     {
+      "from": "out",
+      "text": "Perfeito! Proposta enviada para o seu e-mail.",
+      "card": {
+       "title": "Renovação",
+       "sub": "Seguro auto · vence dia 15"
+      },
+      "time": "10:30"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-conversa-story",
+  "format": "story",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Renovação esquecida é <span class=\"blue\">cliente perdido.</span>",
+    "clock": "10:30",
+    "contact": {
+     "name": "Prime Seguros",
+     "initials": "PS",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "out",
+      "text": "Oi, Eduardo! Seu seguro auto vence dia 15. Quer que eu prepare a renovação?",
+      "chips": [
+       "Sim",
+       "Quero cotar"
+      ],
+      "time": "10:00"
+     },
+     {
+      "from": "in",
+      "text": "Sim, mesma cobertura",
+      "time": "10:30"
+     },
+     {
+      "from": "out",
+      "text": "Perfeito! Proposta enviada para o seu e-mail.",
+      "card": {
+       "title": "Renovação",
+       "sub": "Seguro auto · vence dia 15"
+      },
+      "time": "10:30"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-antes-depois-feed",
+  "format": "feed",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu corretor vendendo, <span class=\"blue\">não emitindo 2ª via.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Eduardo L.",
+       "msg": "Meu seguro vence quando?",
+       "time": "09:12",
+       "badge": "1"
+      },
+      {
+       "name": "Simone A.",
+       "msg": "2ª via do boleto?",
+       "time": "10:05",
+       "badge": "2"
+      },
+      {
+       "name": "Rogério T.",
+       "msg": "Bati o carro, e agora?",
+       "time": "20:18",
+       "badge": "3"
+      },
+      {
+       "name": "Helena C.",
+       "msg": "Quero seguro residencial",
+       "time": "21:30",
+       "badge": "1"
+      },
+      {
+       "name": "Igor N.",
+       "msg": "Qual é a minha franquia?",
+       "time": "22:41",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Eduardo L.",
+       "msg": "Dia 15. Renovação pronta.",
+       "time": "09:12",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Simone A.",
+       "msg": "2ª via enviada.",
+       "time": "10:05",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Rogério T.",
+       "msg": "Sinistro aberto.",
+       "time": "20:18",
+       "ok": "Aberto"
+      },
+      {
+       "name": "Helena C.",
+       "msg": "Dados coletados.",
+       "time": "21:30",
+       "ok": "Cotação"
+      },
+      {
+       "name": "Igor N.",
+       "msg": "Apólice consultada.",
+       "time": "22:41",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-antes-depois-story",
+  "format": "story",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu corretor vendendo, <span class=\"blue\">não emitindo 2ª via.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Eduardo L.",
+       "msg": "Meu seguro vence quando?",
+       "time": "09:12",
+       "badge": "1"
+      },
+      {
+       "name": "Simone A.",
+       "msg": "2ª via do boleto?",
+       "time": "10:05",
+       "badge": "2"
+      },
+      {
+       "name": "Rogério T.",
+       "msg": "Bati o carro, e agora?",
+       "time": "20:18",
+       "badge": "3"
+      },
+      {
+       "name": "Helena C.",
+       "msg": "Quero seguro residencial",
+       "time": "21:30",
+       "badge": "1"
+      },
+      {
+       "name": "Igor N.",
+       "msg": "Qual é a minha franquia?",
+       "time": "22:41",
+       "badge": "1"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Eduardo L.",
+       "msg": "Dia 15. Renovação pronta.",
+       "time": "09:12",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Simone A.",
+       "msg": "2ª via enviada.",
+       "time": "10:05",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Rogério T.",
+       "msg": "Sinistro aberto.",
+       "time": "20:18",
+       "ok": "Aberto"
+      },
+      {
+       "name": "Helena C.",
+       "msg": "Dados coletados.",
+       "time": "21:30",
+       "ok": "Cotação"
+      },
+      {
+       "name": "Igor N.",
+       "msg": "Apólice consultada.",
+       "time": "22:41",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-sob-medida-feed",
+  "format": "feed",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada corretora é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Avisa e prepara renovações",
+     "Abre sinistros com documentos",
+     "Envia boletos e apólices",
+     "Negociação fica com o corretor"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "seguros-sob-medida-story",
+  "format": "story",
+  "label": "Para corretoras",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada corretora é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Avisa e prepara renovações",
+     "Abre sinistros com documentos",
+     "Envia boletos e apólices",
+     "Negociação fica com o corretor"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua corretora.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

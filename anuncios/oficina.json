@@ -1,0 +1,409 @@
+[
+ {
+  "slug": "oficina-cena-feed",
+  "format": "feed",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/oficina-1.jpg",
+    "title": "Perguntou do carro? <span class=\"blue\">Respondido na hora.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "16:40",
+      "text": "Meu carro já está pronto?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Consultou a ordem de serviço e avisou que <strong>fica pronto às 18h</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Orçamento aprovado",
+      "time": "agora",
+      "text": "Pastilhas de freio · Gol 2019"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Revisão",
+      "text": "Lembrete agendado para 6 meses."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente",
+    "imagePos": "50% 60%"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-cena-story",
+  "format": "story",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "scene",
+    "image": "../anuncios/img/oficina-1.jpg",
+    "title": "Perguntou do carro? <span class=\"blue\">Respondido na hora.</span>",
+    "cards": [
+     {
+      "style": "glass",
+      "icon": "chat",
+      "color": "green",
+      "app": "Nova mensagem",
+      "time": "16:40",
+      "text": "Meu carro já está pronto?"
+     },
+     {
+      "style": "solid",
+      "icon": "ai",
+      "title": "Agente de IA",
+      "tag": "Respondeu na hora",
+      "text": "Consultou a ordem de serviço e avisou que <strong>fica pronto às 18h</strong>."
+     },
+     {
+      "style": "glass",
+      "icon": "cal",
+      "color": "blue",
+      "app": "Orçamento aprovado",
+      "time": "agora",
+      "text": "Pastilhas de freio · Gol 2019"
+     },
+     {
+      "style": "solid",
+      "icon": "bell",
+      "title": "Revisão",
+      "text": "Lembrete agendado para 6 meses."
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-conversa-feed",
+  "format": "feed",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quantas vezes perguntam <span class=\"blue\">“já está pronto?”</span>",
+    "clock": "16:45",
+    "contact": {
+     "name": "Auto Center Rota",
+     "initials": "AR",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Boa tarde! Meu carro já está pronto?",
+      "time": "16:40"
+     },
+     {
+      "from": "out",
+      "text": "Boa tarde, Carlos! Fica pronto hoje às 18h. O mecânico viu pastilhas gastas, quer incluir?",
+      "chips": [
+       "Incluir",
+       "Agora não"
+      ],
+      "time": "16:40"
+     },
+     {
+      "from": "in",
+      "text": "Pode incluir",
+      "time": "16:45"
+     },
+     {
+      "from": "out",
+      "text": "Incluído ✅",
+      "card": {
+       "title": "Ordem de serviço",
+       "sub": "Pronto hoje · 18h"
+      },
+      "time": "16:45"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-conversa-story",
+  "format": "story",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "chat",
+    "title": "Quantas vezes perguntam <span class=\"blue\">“já está pronto?”</span>",
+    "clock": "16:45",
+    "contact": {
+     "name": "Auto Center Rota",
+     "initials": "AR",
+     "status": "online",
+     "tag": "Agente de IA"
+    },
+    "messages": [
+     {
+      "from": "in",
+      "text": "Boa tarde! Meu carro já está pronto?",
+      "time": "16:40"
+     },
+     {
+      "from": "out",
+      "text": "Boa tarde, Carlos! Fica pronto hoje às 18h. O mecânico viu pastilhas gastas, quer incluir?",
+      "chips": [
+       "Incluir",
+       "Agora não"
+      ],
+      "time": "16:40"
+     },
+     {
+      "from": "in",
+      "text": "Pode incluir",
+      "time": "16:45"
+     },
+     {
+      "from": "out",
+      "text": "Incluído ✅",
+      "card": {
+       "title": "Ordem de serviço",
+       "sub": "Pronto hoje · 18h"
+      },
+      "time": "16:45"
+     }
+    ],
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-antes-depois-feed",
+  "format": "feed",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu mecânico no carro, <span class=\"blue\">não no WhatsApp.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Carlos M.",
+       "msg": "Meu carro está pronto?",
+       "time": "16:40",
+       "badge": "2"
+      },
+      {
+       "name": "Fábio R.",
+       "msg": "Quanto fica a revisão?",
+       "time": "17:05",
+       "badge": "1"
+      },
+      {
+       "name": "Daniel S.",
+       "msg": "Tem horário amanhã?",
+       "time": "17:31",
+       "badge": "1"
+      },
+      {
+       "name": "Luís P.",
+       "msg": "Aprovo o orçamento",
+       "time": "18:10",
+       "badge": "1"
+      },
+      {
+       "name": "Marta G.",
+       "msg": "Vocês fazem alinhamento?",
+       "time": "19:42",
+       "badge": "2"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Carlos M.",
+       "msg": "Pronto às 18h.",
+       "time": "16:40",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Fábio R.",
+       "msg": "Orçamento enviado.",
+       "time": "17:05",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Daniel S.",
+       "msg": "Amanhã, 8h confirmado.",
+       "time": "17:31",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Luís P.",
+       "msg": "Aprovado e registrado.",
+       "time": "18:10",
+       "ok": "Aprovado"
+      },
+      {
+       "name": "Marta G.",
+       "msg": "Sim, horários enviados.",
+       "time": "19:42",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-antes-depois-story",
+  "format": "story",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "split",
+    "title": "Seu mecânico no carro, <span class=\"blue\">não no WhatsApp.</span>",
+    "before": {
+     "label": "Antes",
+     "kpi": "Sem resposta",
+     "rows": [
+      {
+       "name": "Carlos M.",
+       "msg": "Meu carro está pronto?",
+       "time": "16:40",
+       "badge": "2"
+      },
+      {
+       "name": "Fábio R.",
+       "msg": "Quanto fica a revisão?",
+       "time": "17:05",
+       "badge": "1"
+      },
+      {
+       "name": "Daniel S.",
+       "msg": "Tem horário amanhã?",
+       "time": "17:31",
+       "badge": "1"
+      },
+      {
+       "name": "Luís P.",
+       "msg": "Aprovo o orçamento",
+       "time": "18:10",
+       "badge": "1"
+      },
+      {
+       "name": "Marta G.",
+       "msg": "Vocês fazem alinhamento?",
+       "time": "19:42",
+       "badge": "2"
+      }
+     ]
+    },
+    "after": {
+     "label": "Agente de IA",
+     "kpi": "Respondidas",
+     "rows": [
+      {
+       "name": "Carlos M.",
+       "msg": "Pronto às 18h.",
+       "time": "16:40",
+       "ok": "Respondido"
+      },
+      {
+       "name": "Fábio R.",
+       "msg": "Orçamento enviado.",
+       "time": "17:05",
+       "ok": "Enviado"
+      },
+      {
+       "name": "Daniel S.",
+       "msg": "Amanhã, 8h confirmado.",
+       "time": "17:31",
+       "ok": "Agendado"
+      },
+      {
+       "name": "Luís P.",
+       "msg": "Aprovado e registrado.",
+       "time": "18:10",
+       "ok": "Aprovado"
+      },
+      {
+       "name": "Marta G.",
+       "msg": "Sim, horários enviados.",
+       "time": "19:42",
+       "ok": "Respondido"
+      }
+     ]
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-sob-medida-feed",
+  "format": "feed",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada oficina é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Informa o status do carro",
+     "Envia e registra orçamentos",
+     "Agenda revisões e serviços",
+     "Lembra a próxima revisão"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ },
+ {
+  "slug": "oficina-sob-medida-story",
+  "format": "story",
+  "label": "Para oficinas",
+  "slides": [
+   {
+    "type": "statement",
+    "title": "Cada oficina é única. Seu <span class=\"blue\">agente de IA</span> também.",
+    "checks": [
+     "Informa o status do carro",
+     "Envia e registra orçamentos",
+     "Agenda revisões e serviços",
+     "Lembra a próxima revisão"
+    ],
+    "price": {
+     "label": "Não é chatbot pronto",
+     "value": "É um agente construído para a sua operação"
+    },
+    "cta": "Agentes de IA sob medida para a operação da sua oficina.",
+    "button": "Fale com a gente"
+   }
+  ]
+ }
+]

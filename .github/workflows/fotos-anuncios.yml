@@ -33,7 +33,11 @@ jobs:
           for nome, p in pedidos.items():
               q = urllib.parse.urlencode({"query": p["query"], "orientation": p.get("orientation", "portrait"),
                                           "content_filter": "high", "per_page": p.get("n", 4)})
-              res = json.loads(get(f"https://api.unsplash.com/search/photos?{q}"))["results"]
+              try:
+                  res = json.loads(get(f"https://api.unsplash.com/search/photos?{q}"))["results"]
+              except Exception as e:  # chave demo do Unsplash: 50 requisições por hora
+                  print(nome, "falhou:", e, "(limite por hora? tente de novo mais tarde)")
+                  continue
               print(nome, len(res), "resultados")
               for i, ph in enumerate(res, 1):
                   try:  # exigência da API do Unsplash: registrar o download
