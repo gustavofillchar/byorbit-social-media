@@ -1,6 +1,5 @@
 {
  "advocacia": {"query": "lawyer office", "orientation": "portrait", "n": 5},
  "escola": {"query": "school reception office", "orientation": "portrait", "n": 5},
- "restaurante": {"query": "restaurant counter phone", "orientation": "portrait", "n": 5},
- "oficina-b": {"query": "car mechanic garage", "orientation": "portrait", "n": 5}
+ "restaurante": {"query": "restaurant counter phone", "orientation": "portrait", "n": 5}
 }
