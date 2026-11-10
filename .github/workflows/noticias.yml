@@ -1,10 +1,7 @@
 name: Tech News
 
 on:
-  schedule:
-    - cron: "45 10 * * *"        # 07:45 em Brasília: com o atraso do GitHub e ~3 min de execução, o Tech News sai perto das 8h
-    - cron: "20 11-23/2 * * *"   # breaking: a cada 2h, das 08h20 às 20h20 em Brasília
-    - cron: "20 1 * * *"         # breaking: 22h20 em Brasília
+  # Sem agendamento automático (pausado em 10/11/2026): roda só quando pedido manualmente.
   push:
     paths: ["noticias/gatilho.json"]   # rodar na hora: {"mode": "daily"|"breaking", "dry_run": true|false}
   workflow_dispatch:
