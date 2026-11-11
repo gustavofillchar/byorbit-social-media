@@ -1,14 +1,14 @@
 """Renderiza posts de notícias: python3 -I render_news.py <kit_dir> <posts.json> <out_dir>
 posts.json = [{"slug", "format": "feed"|"story", "kind": "daily"|"breaking", "slides": [...]}]
 Imagens: caminho relativo ao kit (ex.: ../noticias/img/x.jpg)."""
-import sys, json, pathlib
+import os, sys, json, pathlib
 from playwright.sync_api import sync_playwright
 
 kit = pathlib.Path(sys.argv[1]).resolve()
 posts = json.loads(pathlib.Path(sys.argv[2]).read_text(encoding="utf-8"))
 out = pathlib.Path(sys.argv[3]); out.mkdir(parents=True, exist_ok=True)
 with sync_playwright() as p:
-    b = p.chromium.launch()
+    b = p.chromium.launch(channel=os.environ.get("PW_CHANNEL") or None)
     for post in posts:
         h = 1920 if post.get("format") == "story" else 1440
         pg = b.new_page(viewport={"width": 1080, "height": h})
