@@ -1,0 +1,18 @@
+[
+{
+ "slug": "2026-11-11-portal-do-cliente",
+ "date": "2026-11-11",
+ "slides": [
+  {"type":"cover","title":"Seus clientes ainda pedem tudo pelo <span class=\"blue\">WhatsApp</span>?","sub":"Um portal do cliente organiza pedidos, documentos e atendimento."},
+  {"type":"text","title":"O WhatsApp virou o sistema da empresa.","body":"Pedido, segunda via, status e reclamação chegam no mesmo lugar, misturados. A equipe responde a mesma pergunta várias vezes por dia."},
+  {"type":"item","num":"01","title":"Pedidos e status em tempo real","body":"O cliente acompanha cada etapa sozinho, sem precisar perguntar e sem esperar alguém responder."},
+  {"type":"item","num":"02","title":"Documentos sempre à mão","body":"Notas, boletos, contratos e relatórios ficam disponíveis para baixar a qualquer hora."},
+  {"type":"item","num":"03","title":"Chamados com histórico","body":"Cada solicitação vira um chamado com prazo e responsável. Nada se perde no meio da conversa."},
+  {"type":"item","num":"04","title":"Agente de IA para as dúvidas comuns","body":"Ele responde perguntas frequentes com os dados do próprio portal e chama a equipe quando o caso pede."},
+  {"type":"turn","title":"A ByOrbit desenvolve o <span class=\"blue\">portal do cliente</span> da sua empresa.","sub":"Integrado ao que você já usa, com:","checks":["Acesso seguro para cada cliente","Integração com ERP e sistemas","WhatsApp só para o que importa"]},
+  {"type":"cta","title":"Quantas mensagens repetidas sua equipe responde por dia?","body":"Conte como é o atendimento hoje.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Quando o WhatsApp vira o sistema da empresa, pedido, segunda via e reclamação chegam todos no mesmo lugar. E alguém precisa responder um por um.\n\nUm portal do cliente organiza isso:\n\n1. Pedidos e status em tempo real\n2. Notas, boletos e contratos disponíveis a qualquer hora\n3. Chamados com prazo, responsável e histórico\n4. Um agente de IA respondendo as dúvidas mais comuns\n\nO WhatsApp continua existindo, mas para o que realmente precisa de conversa.\n\nA ByOrbit desenvolve portais do cliente sob medida, integrados ao ERP e aos sistemas que a sua empresa já usa.\n\nQual pergunta seus clientes mais repetem no WhatsApp? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#portaldocliente #atendimentoaocliente #agentesdeia #softwaresobmedida #gestaoempresarial",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Seus clientes ainda pedem tudo pelo WhatsApp?', com 'WhatsApp' em azul e uma órbita fina no canto superior direito."
+}
+]
