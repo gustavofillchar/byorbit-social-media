@@ -296,12 +296,12 @@ def build_posts(data, mode, slug_base):
     meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro",
              "outubro", "novembro", "dezembro"]
     if mode == "daily":
-        cover = {"type": "cover", "title": "Tech News", "date": f"{NOW.day:02d} de {meses[NOW.month - 1]} de {NOW.year}",
+        cover = {"type": "cover", "title": "Resumo do dia", "date": f"{NOW.day:02d} de {meses[NOW.month - 1]} de {NOW.year}",
                  "items": [n["short"] for n in data["news"]]}
         end = {"type": "end", "title": "Tecnologia descomplicada, todo dia.",
                "body": "As principais notícias de tecnologia, direto ao ponto.<br>"
                        "Quer levar IA para a sua empresa? A ByOrbit responde em até 24h."}
-        posts = [{"slug": slug_base, "format": "feed", "kind": "daily", "slides": [cover, *slides, end]}]
+        posts = [{"slug": slug_base, "format": "feed", "kind": "daily", "slides": [*slides, cover, end]}]
     else:
         posts = [{"slug": slug_base + "-feed", "format": "feed", "kind": "breaking", "slides": slides[:1]},
                  {"slug": slug_base + "-story", "format": "story", "kind": "breaking", "slides": slides[:1]}]
