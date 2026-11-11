@@ -35,7 +35,12 @@ jobs:
       - name: Dependências
         run: |
           pip install pillow playwright
-          python -m playwright install --with-deps chromium
+          # o apt do GitHub às vezes falha por instabilidade; tenta de novo antes de desistir
+          for i in 1 2 3; do
+            python -m playwright install --with-deps chromium && break
+            echo "instalação falhou (tentativa $i), tentando de novo"; sleep 30; sudo apt-get update -q || true
+          done
+          python -m playwright install chromium
 
       - name: Fontes Geist
         run: |
