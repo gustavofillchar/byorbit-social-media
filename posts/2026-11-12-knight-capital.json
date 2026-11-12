@@ -1,0 +1,18 @@
+[
+{
+ "slug": "2026-11-12-knight-capital",
+ "date": "2026-11-12",
+ "slides": [
+  {"type":"cover","title":"<span class=\"blue\">US$&nbsp;460&nbsp;milhões</span> perdidos em 45 minutos","sub":"A história de uma atualização de sistema que deu errado."},
+  {"type":"item","num":"2012","title":"1º de agosto, Nova York.","body":"A Knight Capital, uma das maiores operadoras da bolsa americana, colocou no ar uma atualização do seu sistema de negociação."},
+  {"type":"text","title":"Um servidor ficou de fora.","body":"A atualização foi instalada à mão em 8 servidores. Em um deles, o código novo não foi copiado, e ninguém percebeu."},
+  {"type":"text","title":"E um código antigo acordou.","body":"Nesse servidor, uma configuração reaproveitada ativou uma função desligada havia anos. Ela começou a enviar ordens de compra e venda sem parar."},
+  {"type":"text","title":"45 minutos depois, o prejuízo passava de US$ 460 milhões.","body":"Foram milhões de ordens erradas até alguém conseguir parar o sistema. A empresa precisou de socorro financeiro para continuar existindo."},
+  {"type":"text","title":"Colocar no ar não pode depender de passo manual.","body":"Publicação automatizada, código sem uso removido e monitoramento em tempo real evitam que um detalhe vire um prejuízo."},
+  {"type":"turn","title":"Na ByOrbit, ir ao ar é <span class=\"blue\">processo</span>, não improviso.","sub":"Toda atualização passa por:","checks":["Publicação automatizada e testada","Código sem uso removido","Monitoramento e alertas em produção"]},
+  {"type":"cta","title":"Como sua empresa coloca atualizações no ar hoje?","body":"Conte como funciona o seu sistema.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Em 1º de agosto de 2012, a Knight Capital, uma das maiores operadoras da bolsa americana, perdeu mais de US$ 460 milhões em cerca de 45 minutos. O motivo foi uma atualização de sistema.\n\nA atualização foi instalada à mão em 8 servidores, e um deles ficou com o código antigo. Nele, uma configuração reaproveitada ativou uma função desligada havia anos, que começou a enviar ordens sem parar. Quando conseguiram parar o sistema, o estrago estava feito, e a empresa precisou de socorro financeiro para continuar existindo.\n\nA lição vale para qualquer empresa: colocar uma atualização no ar não pode depender de um passo manual que alguém pode esquecer.\n\nNa ByOrbit, toda publicação é automatizada e testada, código sem uso é removido e o sistema fica monitorado em produção.\n\nVocê conhecia essa história? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#curiosidadesdatecnologia #engenhariadesoftware #historiadatecnologia #devops #tecnologia",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'US$ 460 milhões perdidos em 45 minutos', com o valor em azul e uma órbita fina no canto superior direito."
+}
+]
