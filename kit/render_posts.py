@@ -13,6 +13,8 @@ with sync_playwright() as p:
     for post in posts:
         pg.evaluate("p => window.build(p)", post)
         pg.evaluate("document.fonts.ready")
+        # monta de novo com as fontes já carregadas, para o satélite desviar do texto na posição final
+        pg.evaluate("p => window.build(p)", post)
         pg.wait_for_timeout(300)
         fonts = pg.evaluate("[...document.fonts].filter(f=>f.status==='loaded').length")
         assert fonts >= 4, f"fontes Geist não carregaram ({fonts})"

@@ -79,8 +79,10 @@ function build(post){
     const base=el.getBoundingClientRect(); const cx=1250,cy=330,r=560;
     const hit=(x,y)=>blocks.some(b=>x+40>b.left-base.left&&x-40<b.right-base.left&&y+40>b.top-base.top&&y-40<b.bottom-base.top);
     const a0=205+(118-205)*(N>1?i/(N-1):0);
-    for(const d of [0,-6,6,-12,12,-18,18,-24,24,-30,30,-36,36,-42,42]){const a=(a0+d)*Math.PI/180,x=cx+r*Math.cos(a),y=cy+r*Math.sin(a);
-      if(x<1050&&y>40&&!hit(x,y)){ring.setAttribute('cx',x);ring.setAttribute('cy',y);dot.setAttribute('cx',x);dot.setAttribute('cy',y);break}}
+    let placed=false;
+    for(const d of [0,-6,6,-12,12,-18,18,-24,24,-30,30,-36,36,-42,42,-50,50,-60,60,-70,70]){const a=(a0+d)*Math.PI/180,x=cx+r*Math.cos(a),y=cy+r*Math.sin(a);
+      if(x<1050&&y>40&&!hit(x,y)){ring.setAttribute('cx',x);ring.setAttribute('cy',y);dot.setAttribute('cx',x);dot.setAttribute('cy',y);placed=true;break}}
+    if(!placed){ring.style.display='none';dot.style.display='none'} // sem lugar livre: melhor sem satélite do que sobre o texto
   });
 }
 window.build=build;

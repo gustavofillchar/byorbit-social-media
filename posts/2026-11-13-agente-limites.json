@@ -1,0 +1,19 @@
+[
+{
+ "slug": "2026-11-13-agente-limites",
+ "date": "2026-11-13",
+ "slides": [
+  {"type":"cover","title":"Agente de IA <span class=\"blue\">sem limites</span> é risco","sub":"Onde colocar regras, aprovação e registro antes de ligar."},
+  {"type":"text","title":"Um agente executa ações de verdade.","body":"Ele envia mensagens, altera cadastros e dispara processos. Por isso precisa de regras claras, como qualquer pessoa nova na equipe."},
+  {"type":"item","num":"01","title":"Permissão mínima","body":"Ele acessa só os sistemas e os dados de que precisa para a tarefa. Nada de acesso total \"por garantia\"."},
+  {"type":"item","num":"02","title":"Aprovação humana no que é sensível","body":"Pagamentos, descontos, cancelamentos e mensagens importantes passam por uma pessoa antes de sair."},
+  {"type":"item","num":"03","title":"Registro de cada ação","body":"Tudo o que ele consultou e fez fica no histórico, para auditar, corrigir e melhorar."},
+  {"type":"item","num":"04","title":"Limites de volume e custo","body":"Um teto de ações por hora e de gasto com IA evita que um erro se repita mil vezes."},
+  {"type":"item","num":"05","title":"Saída para um humano","body":"Quando a situação foge do roteiro, ele para e chama a equipe, em vez de improvisar."},
+  {"type":"turn","title":"A ByOrbit desenvolve agentes com <span class=\"blue\">controle</span> desde o primeiro dia.","sub":"Todo agente sai com:","checks":["Permissões por sistema e tarefa","Aprovação humana onde importa","Histórico e alertas de cada ação"]},
+  {"type":"cta","title":"O que você deixaria um agente fazer sozinho?","body":"Conte o processo que quer automatizar.<br>A ByOrbit responde em até 24h."}
+ ],
+ "caption": "Um agente de IA não só conversa: ele envia mensagens, altera cadastros e dispara processos. Sem regras, um erro pequeno pode se repetir centenas de vezes antes de alguém perceber.\n\n5 limites que todo agente de IA deveria ter:\n\n1. Permissão mínima: só acessa o que precisa\n2. Aprovação humana no que é sensível\n3. Registro de cada ação\n4. Limites de volume e de custo\n5. Saída para um humano quando foge do roteiro\n\nCom essas travas, o agente ganha autonomia no que é repetitivo e a equipe continua no controle do que importa.\n\nA ByOrbit desenvolve agentes de IA sob medida com esses controles desde o primeiro dia, conectados aos sistemas que a sua empresa já usa.\n\nO que você deixaria um agente fazer sozinho na sua empresa? Conta aqui.\n\nInicie seu briefing pelo link na bio. A ByOrbit responde em até 24h.\n\n#agentesdeia #inteligenciaartificial #segurancadainformacao #automacao #softwaresobmedida",
+ "alt": "Slide de fundo escuro com o logo da ByOrbit e o título 'Agente de IA sem limites é risco', com 'sem limites' em azul e uma órbita fina no canto superior direito."
+}
+]
